@@ -1,19 +1,19 @@
 "use client";
-
 import React from 'react'
-// import { BiChevronDown } from "react-icons/bi";
 import { useState } from "react";
-// import {HiMenuAlt3} from "react-icons/Hi"
 import { motion } from "framer-motion";
 import Link from "next/link";
+import  Button  from "../../common/Button/Button"
+
+
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
     
     <div className="container-fluid shadow-md bg-[#0505059d]  w-full fixed top-0 left-0 py-2 z-50">
-        <div className="container backdrop-blur-xl mx-auto">
-          <div className="flex flex-row mx-auto px-5 justify-between items-center bg-bgGrey relative text-textWhite">
+        <div className="container  mx-auto ]">
+          <div className="flex backdrop-blur-xl flex-row mx-auto px-[3rem] justify-between items-center bg-bgGrey relative text-textWhite">
           <motion.div
             initial={{
               x: -500,
@@ -32,7 +32,7 @@ function Navbar() {
             <Link href={"/"}>
               <img
                 className="w-[10rem] lg:w-[10rem] lg:h-[3.5rem]"
-                src="https://www.expelee.com/static/logo.svg"
+                src="https://www.expelee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexpelee_logo_light.41a503c4.png&w=256&q=75"
                 alt="Expelee Logo"
               />
             </Link>
@@ -45,9 +45,9 @@ function Navbar() {
                 Services
                 {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
                 {/* dropdown */}
-                <div className="absolute top-[65%] py-6 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300 backdrop-blur-xl ">
-                  <div className="w-full">
-                    <div className=" bg-[#1b1b1b54] backdrop-blur-xl  px-24 py-8">
+                <div className="absolute top-[65%] py-6 left-0 w-screen bg-transperent invisible group-hover/Home:visible duration-300 text-white ">
+                  <div className="w-full ">
+                    <div className=" bg-[#000000] backdrop-blur-xl  px-24 py-8">
                       <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                         <div className="grid-cols-2">
                           <div className="flex items-start gap-5">
@@ -132,8 +132,7 @@ function Navbar() {
               </div>
             </div>
             <div className="hidden lg:block">
-                  {/* <PrimaryButton text="Get Started"  /> */}
-                  hh
+                  <Button />
             </div>
             <div
               className="blocl lg:hidden relative"
