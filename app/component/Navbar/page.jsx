@@ -161,7 +161,9 @@ function Navbar() {
             <div className="font-semibold flex gap-1 items-center   group/Home">
               Resouces
             </div>
-            <div className="font-semibold flex gap-1 items-center">Contact</div>
+            <div className="font-semibold flex gap-1 items-center">
+              <Link href="./pages/contact">Contact</Link>
+            </div>
           </div>
           <div className="hidden lg:block">
             <Button text="Contact Us"/>
