@@ -161,7 +161,7 @@ function Navbar() {
             <div className="font-semibold flex gap-1 items-center">Contact</div>
           </div>
           <div className="hidden lg:block">
-            <Button />
+            <Button text="Contact Us"/>
           </div>
           <div
             className="blocl lg:hidden relative"

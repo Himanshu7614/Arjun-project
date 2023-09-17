@@ -8,13 +8,13 @@ import Testimonials from "../component/Testimonials/page"
 function Homepage() {
   return (
     <>
-      <section class="text-white body-font my-[3rem]">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col items-center text-center w-full mb-12">
-            <h1 class="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
+      <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12">
+            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
               We turn ideas into extraordinary digital products & experiences
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-sm">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
               Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
               we're not just about boosting your online presence; we're about
               giving your brand a rocket-powered boost into the digital cosmos.
@@ -24,15 +24,15 @@ function Homepage() {
         </div>
       </section>
       {/* //about */}
-      <section class="text-white body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto ">
-          <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+      <section className="text-white body-font overflow-hidden">
+        <div className="container px-5 py-24 mx-auto ">
+          <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 className="text-4xl font-bold  tracking-widest">
                 So what do we do exactly?
               </h2>
-              <p class="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4">
                 We're not just another digital marketing agency. We're a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm. Our secret sauce? It's
@@ -41,7 +41,7 @@ function Homepage() {
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
               </p>
-              <p class="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4">
                 What sets us apart? It's our commitment to tailored strategies.
                 We understand that your business is as unique as a fingerprint,
                 and your digital journey should reflect that. That's why we take
@@ -76,72 +76,72 @@ function Homepage() {
         </div>
       </section>
       {/* services */}
-      <section class="text-white body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
+      <section className="text-white body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-20">
 
             <p className="text-sm uppercase">Our services </p>
-            <h2 class="sm:text-3xl text-4xl  font-bold title-font mb-4 ">
+            <h2 className="sm:text-3xl text-4xl  font-bold title-font mb-4 ">
               We provide wide range of digital services
             </h2>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Whether you’re a startup looking for that extra kick or an
               established retailer in need of a fresh perspective, we are here
               to take your digital commerce to the next level.
             </p>
           </div>
-          <div class="flex flex-wrap -m-2 text-center md:w-[80%] mx-auto ">
-            <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
-                <h2 class="title-font font-bold text-2xl ">
+          <div className="flex flex-wrap -m-2 text-center md:w-[80%] mx-auto ">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+                <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
                 <p className="font-bold">Book a demo</p>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
-                <h2 class="title-font font-bold text-2xl ">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+                <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
                 <p className="font-bold">Book a demo</p>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
-                <h2 class="title-font font-bold text-2xl ">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+                <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
                 <p className="font-bold">Book a demo</p>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
-                <h2 class="title-font font-bold text-2xl ">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+                <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
-                <p class="leading-relaxed">
+                <p className="leading-relaxed">
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
                 <p className="font-bold">Book a demo</p>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
-                <h2 class="title-font font-bold text-2xl ">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+                <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
                 <p class="leading-relaxed">

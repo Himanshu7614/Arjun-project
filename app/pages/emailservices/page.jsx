@@ -6,13 +6,13 @@ function Emailservices() {
   return (
     <div>
         {/* first section */}
-    <section class="text-white body-font my-[3rem]">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col items-center text-center w-full mb-12">
-            <h1 class="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
+    <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12">
+            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
               We turn ideas into extraordinary digital products & experiences
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-sm">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
               Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
               we're not just about boosting your online presence; we're about
               giving your brand a rocket-powered boost into the digital cosmos.
@@ -22,9 +22,9 @@ function Emailservices() {
         </div>
       </section>
       {/* second section */}
-      <section class="text-white body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto ">
-          <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
+      <section className="text-white body-font overflow-hidden">
+        <div className="container px-5 py-24 mx-auto ">
+          <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -42,13 +42,13 @@ function Emailservices() {
                 alt="About Image"
               />
             </motion.div>
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
 
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 className="text-4xl font-bold  tracking-widest">
                 So what do we do exactly?
               </h2>
-              <p class="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4">
                 We're not just another digital marketing agency. We're a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm. Our secret sauce? It's
@@ -57,7 +57,7 @@ function Emailservices() {
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
               </p>
-              <p class="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4">
                 What sets us apart? It's our commitment to tailored strategies.
                 We understand that your business is as unique as a fingerprint,
                 and your digital journey should reflect that. That's why we take
@@ -76,13 +76,13 @@ function Emailservices() {
 
 
     {/* section */}
-    <section class="text-black w-[80%] mx-auto bg-white rounded-lg">
-    <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
-        <img class="object-cover object-center rounded" alt="hero" src="/services/emailone.png" />
+    <section className="text-black w-[80%] mx-auto bg-white rounded-lg">
+    <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
+        <img className="object-cover object-center rounded" alt="hero" src="/services/emailone.png" />
         </div>
-        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-        <h1 class=" text-3xl mb-4 font-bold ">Before they sold out readymade gluten
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 className=" text-3xl mb-4 font-bold ">Before they sold out readymade gluten
         </h1>
         <p class="mb-8">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">
@@ -110,13 +110,13 @@ function Emailservices() {
     </section>
 
     {/* last section */}
-    <section class="text-white body-font my-[3rem]">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col items-center text-center w-full mb-12">
-            <h1 class="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
+    <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12">
+            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
               We turn ideas into extraordinary digital products & experiences
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-sm">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
               Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
               we're not just about boosting your online presence; we're about
               giving your brand a rocket-powered boost into the digital cosmos.
@@ -126,15 +126,15 @@ function Emailservices() {
         </div>
 
         <section>
-        <section class="text-gray-600 body-font">
-        <div class="container px-5 mx-auto">
-          <div class="flex flex-wrap -mb-10 text-center justify-center items-center md:w-[70%] mx-auto ">
-            <div class="sm:w-1/2 mb-10 px-4">
+        <section className="text-gray-600 body-font">
+        <div className="container px-5 mx-auto">
+          <div className="flex flex-wrap -mb-10 text-center justify-center items-center md:w-[70%] mx-auto ">
+            <div className="sm:w-1/2 mb-10 px-4">
                 <div className="h-[200px] w-[300px] bg-white relative rounded-lg">
                       <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
                 </div>
             </div>
-            <div class="sm:w-1/2 mb-10 px-4">
+            <div className="sm:w-1/2 mb-10 px-4">
             <div className="h-[200px] w-[300px] bg-white relative rounded-lg">
                       <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
                 </div>
