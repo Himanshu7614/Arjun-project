@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Brands from "../component/Brand/pages"
+import Testimonials from "../component/Testimonials/page"
 
 function Homepage() {
   return (
@@ -20,12 +23,12 @@ function Homepage() {
           </div>
         </div>
       </section>
-
       {/* //about */}
       <section class="text-white body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+              <p className="text-sm uppercase">WORK WITH US</p>
               <h2 class="text-4xl font-bold  tracking-widest">
                 So what do we do exactly?
               </h2>
@@ -72,11 +75,11 @@ function Homepage() {
           </div>
         </div>
       </section>
-
       {/* services */}
       <section class="text-white body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
+
             <p className="text-sm uppercase">Our services </p>
             <h2 class="sm:text-3xl text-4xl  font-bold title-font mb-4 ">
               We provide wide range of digital services
@@ -163,7 +166,6 @@ function Homepage() {
           </div>
         </div>
       </section>
-
       {/* we work with */}
       <section class="text-white body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto ">
@@ -186,6 +188,8 @@ function Homepage() {
               />
             </motion.div>
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+              <p className="text-sm uppercase">WORK WITH US</p>
+
               <h2 class="text-4xl font-bold  tracking-widest">
                 So what do we do exactly?
               </h2>
@@ -214,40 +218,146 @@ function Homepage() {
           </div>
         </div>
       </section>
+      
+      <Brands />
 
-      {/* brand section */}
-      <section class=" body-font">
-        <hr className="w-[90%] mx-auto" />
+      {/* Projcts */}
+      <section class="text-white body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <p className="text-sm uppercase">WORK WITH US</p>
             <h2 class="sm:text-3xl text-4xl  font-bold title-font mb-4 uppercase ">
-            Check our best clients & partners
+              Check our best clients & partners
             </h2>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor incididunt ut labore et.
+              Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
+              magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor
+              incididunt ut labore et.
             </p>
           </div>
-          <div class="flex flex-wrap -m-4 text-center">
-            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <img src="/homepage/brand.png" alt="" />
+          <div class="flex flex-wrap -m-4 sm:w-[80%] mx-auto w-[90%]">
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex flex-col items-center justify-start ">
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  variants={{
+                    visible: { opacity: 1, scale: 1 },
+                    hidden: { opacity: 0, scale: 0 },
+                  }}
+                  className="flex items-center"
+                >
+                  <img
+                    className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                    src="/Homepage/content.png"
+                    alt="About Image"
+                  />
+                </motion.div>
+                <div class="flex-grow sm:pl-8 text-start sm:w-[60%] w-[80%] mx-auto">
+                  <h2 class=" font-bold text-xl">CONTENT STRATEGY</h2>
+                  <h3 class="mb-3">UI Developer</h3>
+                  <p class="mb-4">
+                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
+                    pack vaporware.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <img src="/homepage/brand.png" alt="" />
+
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex flex-col items-center justify-start ">
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  variants={{
+                    visible: { opacity: 1, scale: 1 },
+                    hidden: { opacity: 0, scale: 0 },
+                  }}
+                  className="flex items-center"
+                >
+                  <img
+                    className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                    src="/Homepage/graphic.png"
+                    alt="About Image"
+                  />
+                </motion.div>
+                <div class="flex-grow sm:pl-8 text-start sm:w-[60%] w-[80%] mx-auto">
+                  <h2 class=" font-bold text-xl">CONTENT STRATEGY</h2>
+                  <h3 class="mb-3">UI Developer</h3>
+                  <p class="mb-4">
+                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
+                    pack vaporware.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <img src="/homepage/brand.png" alt="" />
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex flex-col items-center justify-start ">
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  variants={{
+                    visible: { opacity: 1, scale: 1 },
+                    hidden: { opacity: 0, scale: 0 },
+                  }}
+                  className="flex items-center"
+                >
+                  <img
+                    className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                    src="/Homepage/webdev.png"
+                    alt="About Image"
+                  />
+                </motion.div>
+                <div class="flex-grow sm:pl-8 text-start sm:w-[60%] w-[80%] mx-auto">
+                  <h2 class=" font-bold text-xl">CONTENT STRATEGY</h2>
+                  <h3 class="mb-3">UI Developer</h3>
+                  <p class="mb-4">
+                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
+                    pack vaporware.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-              <img src="/homepage/brand.png" alt="" />
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex flex-col items-center justify-start ">
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  variants={{
+                    visible: { opacity: 1, scale: 1 },
+                    hidden: { opacity: 0, scale: 0 },
+                  }}
+                  className="flex items-center"
+                >
+                  <img
+                    className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] mb-3"
+                    src="/Homepage/marketing.png"
+                    alt="About Image"
+                  />
+                </motion.div>
+                <div class="flex-grow sm:pl-8 text-start sm:w-[60%] w-[80%] mx-auto">
+                  <h2 class=" font-bold text-xl">CONTENT STRATEGY</h2>
+                  <h3 class="mb-3">UI Developer</h3>
+                  <p class="mb-4">
+                    DIY tote bag drinking vinegar cronut adaptogen squid fanny
+                    pack vaporware.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <hr className="w-[90%] mx-auto" />
-
       </section>
-
-      {/* Projcts */}
+      
+      <Testimonials />
     </>
   );
 }
