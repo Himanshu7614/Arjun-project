@@ -79,7 +79,7 @@ function Emailservices() {
     <section class="text-black w-[80%] mx-auto bg-white rounded-lg">
     <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+        <img class="object-cover object-center rounded" alt="hero" src="/services/emailone.png" />
         </div>
         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
         <h1 class=" text-3xl mb-4 font-bold ">Before they sold out readymade gluten
@@ -104,10 +104,48 @@ function Emailservices() {
         </div>
         </div>        
         <div class="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+        <img class="object-cover object-center rounded" alt="hero" src="/services/emailtwo.png" />
         </div>
     </div>
     </section>
+
+    {/* last section */}
+    <section class="text-white body-font my-[3rem]">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col items-center text-center w-full mb-12">
+            <h1 class="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
+              We turn ideas into extraordinary digital products & experiences
+            </h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-sm">
+              Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
+              we're not just about boosting your online presence; we're about
+              giving your brand a rocket-powered boost into the digital cosmos.
+              Let's embark on this cosmic journey together!
+            </p>
+          </div>
+        </div>
+
+        <section>
+        <section class="text-gray-600 body-font">
+        <div class="container px-5 mx-auto">
+          <div class="flex flex-wrap -mb-10 text-center justify-center items-center md:w-[70%] mx-auto ">
+            <div class="sm:w-1/2 mb-10 px-4">
+                <div className="h-[200px] w-[300px] bg-white relative rounded-lg">
+                      <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
+                </div>
+            </div>
+            <div class="sm:w-1/2 mb-10 px-4">
+            <div className="h-[200px] w-[300px] bg-white relative rounded-lg">
+                      <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+        </section>
+
+      </section>
+
 
     </div>
   )
