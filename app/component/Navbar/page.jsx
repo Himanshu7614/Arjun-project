@@ -147,14 +147,17 @@ function Navbar() {
               {/* dropdown */}
             </div>
             <Link
-              href="/pages/about"
+              href="/pages/About"
               className="font-semibold flex gap-1 items-center group/Home"
             >
-              About
+              About-us
             </Link>
-            <div className="font-semibold flex gap-1 items-center   group/Home">
-              Conatct
-            </div>
+            <Link
+              href="/pages/Contact"
+              className="font-semibold flex gap-1 items-center group/Home"
+            >
+              Contact
+            </Link>
             <div className="font-semibold flex gap-1 items-center   group/Home">
               Resouces
             </div>
