@@ -59,7 +59,7 @@ function page() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                src="/Homepage/imgtwo.png"
+                src="/homepage/imgtwo.png"
                 alt="About Image"
               />
             </motion.div>

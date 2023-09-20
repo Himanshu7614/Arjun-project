@@ -6,7 +6,7 @@ import Image from "next/image";
 import Brands from "../component/Brand/pages"
 import Testimonials from "../component/Testimonials/page"
 
-function Homepage() {
+function homepage() {
   return (
     <>
       <section className="text-white body-font my-[3rem]">
@@ -72,7 +72,7 @@ function Homepage() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
-                src="/Homepage/imgone.png"
+                src="/homepage/imgone.png"
                 alt="About Image"
               />
             </motion.div>
@@ -193,7 +193,7 @@ function Homepage() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
-                src="/Homepage/imgtwo.png"
+                src="/homepage/imgtwo.png"
                 alt="About Image"
               />
             </motion.div>
@@ -263,7 +263,7 @@ function Homepage() {
                 >
                   <img
                     className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                    src="/Homepage/content.png"
+                    src="/homepage/content.png"
                     alt="About Image"
                   />
                 </motion.div>
@@ -295,7 +295,7 @@ function Homepage() {
                 >
                   <img
                     className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                    src="/Homepage/graphic.png"
+                    src="/homepage/graphic.png"
                     alt="About Image"
                   />
                 </motion.div>
@@ -326,7 +326,7 @@ function Homepage() {
                 >
                   <img
                     className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                    src="/Homepage/webdev.png"
+                    src="/homepage/webdev.png"
                     alt="About Image"
                   />
                 </motion.div>
@@ -357,7 +357,7 @@ function Homepage() {
                 >
                   <img
                     className="w-[12rem] lg:w-[23rem] lg:ml-[-2rem] mt-[5rem] mb-3"
-                    src="/Homepage/marketing.png"
+                    src="/homepage/marketing.png"
                     alt="About Image"
                   />
                 </motion.div>
@@ -382,4 +382,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default homepage;

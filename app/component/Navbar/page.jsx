@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div className="container-fluid drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
-      <div className="container w-[90%] mx-auto  ">
+      <div className="container ">
         <div className="flex flex-row mx-auto justify-between items-center bg-bgGrey relative text-textWhite">
           <motion.div
             initial={{
@@ -29,13 +29,13 @@ function Navbar() {
           >
             <Link href={"/pages/"}>
               <img
-                className="w-[8rem] lg:w-[10rem] lg:h-[3.5rem]"
+                className="w-[8rem] lg:w-[10rem] lg:h-[3.5rem] lg:ml-24"
                 src="/logo.png"
                 alt="Expelee Logo"
               />
             </Link>
           </motion.div>
-          <div className="sm:flex flex-row justify-between items-center gap-10 hidden ">
+          <div className="lg:flex flex-row justify-between items-center gap-10 hidden ">
             <Link
               href="/"
               className="font-semibold flex gap-1 items-center duration-300"
@@ -163,11 +163,11 @@ function Navbar() {
               <Link href="./pages/contact">Contact</Link>
             </div>
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden lg:block mr-24">
             <Button text="Contact Us" className={"font-bold hover:bg-gradient-to-b from-purple-200 via-purple-300 to-slate-500"} />
           </div>
           <div
-            className="blocl lg:hidden relative"
+            className="block lg:hidden relative"
             onClick={() => {
               setShowMenu(showMenu === true ? false : true);
             }}
