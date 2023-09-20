@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Textlink from "../../common/Button/Textlink"
+
 
 function Contentservices() {
   return (
@@ -19,6 +21,8 @@ function Contentservices() {
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div
@@ -33,7 +37,7 @@ function Contentservices() {
               className="flex items-center"
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/services/content-one.png"
                 alt="About Image"
               />
@@ -138,7 +142,7 @@ function Contentservices() {
               className="flex items-center pt-4"
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/services/seotwo.png"
                 alt="About Image"
               />
@@ -163,7 +167,7 @@ function Contentservices() {
             </p>
           </div>
           <div className="flex flex-wrap -m-4 w-[70%] mx-auto">
-            <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="p-4 lg:w-1/3 md:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center text-center ">
                 <img
                   alt="team"
@@ -175,7 +179,7 @@ function Contentservices() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="p-4 lg:w-1/3 md:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center text-center ">
                 <img
                   alt="team"
@@ -187,7 +191,7 @@ function Contentservices() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="p-4 lg:w-1/3 md:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center text-center ">
                 <img
                   alt="team"
@@ -199,7 +203,7 @@ function Contentservices() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="p-4 lg:w-1/3 md:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center text-center ">
                 <img
                   alt="team"
@@ -211,7 +215,7 @@ function Contentservices() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="p-4 lg:w-1/3 md:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center text-center ">
                 <img
                   alt="team"
@@ -223,7 +227,7 @@ function Contentservices() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="p-4 lg:w-1/3 md:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center text-center ">
                 <img
                   alt="team"
@@ -257,7 +261,7 @@ function Contentservices() {
               className="flex items-center pt-4"
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/services/seotwo.png"
                 alt="About Image"
               />
@@ -289,6 +293,8 @@ function Contentservices() {
                 social media management. We provide a comprehensive, cohesive
                 approach to elevate your brand online.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
           </div>

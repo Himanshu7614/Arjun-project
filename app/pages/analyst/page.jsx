@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Textlink from "../../common/Button/Textlink"
+
 
 function analiyst() {
   return (
@@ -23,7 +25,7 @@ function analiyst() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+              transition-all cursor-pointer={{ duration: 0.5 }}
               variants={{
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
@@ -31,7 +33,7 @@ function analiyst() {
               className="flex items-center"
             >
               <img
-                className="lg:w-[35rem] mx-auto"
+                className="lg:w-[35rem] mx-auto hover:scale-105 transition-all cursor-pointer-all duration-500"
                 src="/services/webone.png"
                 alt="About Image"
               />
@@ -56,6 +58,8 @@ function analiyst() {
                 assumenda quas optio hic commodi eaque. Optio quisquam
                 reiciendis dicta quod!
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
           </div>
         </div>
@@ -76,7 +80,7 @@ function analiyst() {
                 </p>
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
+                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
                   <p className="text-lg font-bold">On-Page Optimization</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +98,7 @@ function analiyst() {
                 <hr className="py-[2px] w-[90%]" />
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
+                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
                   <p className="text-lg font-bold">On-Page Optimization</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +116,7 @@ function analiyst() {
                 <hr className="py-[2px] w-[90%]" />
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
+                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
                   <p className="text-lg font-bold">On-Page Optimization</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -128,6 +132,8 @@ function analiyst() {
                   </svg>
                 </div>
                 <hr className="py-[2px] w-[90%]" />
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
               </div>
             </div>
 
@@ -135,7 +141,7 @@ function analiyst() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+              transition-all cursor-pointer={{ duration: 0.5 }}
               variants={{
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
@@ -178,7 +184,7 @@ function analiyst() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+              transition-all cursor-pointer={{ duration: 0.5 }}
               variants={{
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
@@ -204,7 +210,7 @@ function analiyst() {
                 </p>
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
+                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
                   <p className="text-lg font-bold">On-Page Optimization</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +228,7 @@ function analiyst() {
                 <hr className="py-[2px] w-[90%]" />
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
+                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
                   <p className="text-lg font-bold">On-Page Optimization</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -240,7 +246,7 @@ function analiyst() {
                 <hr className="py-[2px] w-[90%]" />
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
+                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
                   <p className="text-lg font-bold">On-Page Optimization</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -257,6 +263,8 @@ function analiyst() {
                 </div>
                 <hr className="py-[2px] w-[90%]" />
               </div>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
           </div>
         </div>

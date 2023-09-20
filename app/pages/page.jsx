@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Textlink from "../common/Button/Textlink"
 import Image from "next/image";
 import Brands from "../component/Brand/pages"
 import Testimonials from "../component/Testimonials/page"
@@ -20,6 +21,7 @@ function Homepage() {
               giving your brand a rocket-powered boost into the digital cosmos.
               Let's embark on this cosmic journey together!
             </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
           </div>
         </div>
       </section>
@@ -53,6 +55,8 @@ function Homepage() {
                 social media management. We provide a comprehensive, cohesive
                 approach to elevate your brand online.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
             </div>
 
             <motion.div
@@ -64,10 +68,10 @@ function Homepage() {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              className="flex items-center"
+              className="flex items-center "
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/Homepage/imgone.png"
                 alt="About Image"
               />
@@ -91,7 +95,7 @@ function Homepage() {
             </p>
           </div>
           <div className="flex flex-wrap -m-2 text-center md:w-[80%] mx-auto ">
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
@@ -100,10 +104,11 @@ function Homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                <p className="font-bold">Book a demo</p>
+                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
@@ -112,10 +117,11 @@ function Homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                <p className="font-bold">Book a demo</p>
+                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
@@ -124,10 +130,11 @@ function Homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                <p className="font-bold">Book a demo</p>
+                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
@@ -136,10 +143,11 @@ function Homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                <p className="font-bold">Book a demo</p>
+                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
               </div>
             </div>
-            <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
@@ -148,10 +156,11 @@ function Homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                <p className="font-bold">Book a demo</p>
+                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
+            <div class="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
                 <h2 class="title-font font-bold text-2xl ">
                   Website Development
@@ -160,7 +169,8 @@ function Homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                <p className="font-bold">Book a demo</p>
+                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
               </div>
             </div>
           </div>
@@ -179,10 +189,10 @@ function Homepage() {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              className="flex items-center"
+              className="flex items-center "
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/Homepage/imgtwo.png"
                 alt="About Image"
               />
@@ -214,6 +224,8 @@ function Homepage() {
                 social media management. We provide a comprehensive, cohesive
                 approach to elevate your brand online.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
             </div>
           </div>
         </div>
@@ -236,7 +248,7 @@ function Homepage() {
             </p>
           </div>
           <div class="flex flex-wrap -m-4 sm:w-[80%] mx-auto w-[90%]">
-            <div class="p-4 lg:w-1/2">
+            <div class="p-4 lg:w-1/2 hover:scale-105 transition-all duration-500">
               <div class="h-full flex flex-col items-center justify-start ">
                 <motion.div
                   initial="hidden"
@@ -262,11 +274,13 @@ function Homepage() {
                     DIY tote bag drinking vinegar cronut adaptogen squid fanny
                     pack vaporware.
                   </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
                 </div>
               </div>
             </div>
 
-            <div class="p-4 lg:w-1/2">
+            <div class="p-4 lg:w-1/2 hover:scale-105 transition-all duration-500">
               <div class="h-full flex flex-col items-center justify-start ">
                 <motion.div
                   initial="hidden"
@@ -292,10 +306,12 @@ function Homepage() {
                     DIY tote bag drinking vinegar cronut adaptogen squid fanny
                     pack vaporware.
                   </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-1/2">
+            <div class="p-4 lg:w-1/2 hover:scale-105 transition-all duration-500">
               <div class="h-full flex flex-col items-center justify-start ">
                 <motion.div
                   initial="hidden"
@@ -321,10 +337,12 @@ function Homepage() {
                     DIY tote bag drinking vinegar cronut adaptogen squid fanny
                     pack vaporware.
                   </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-1/2">
+            <div class="p-4 lg:w-1/2 hover:scale-105 transition-all duration-500">
               <div class="h-full flex flex-col items-center justify-start ">
                 <motion.div
                   initial="hidden"
@@ -350,6 +368,8 @@ function Homepage() {
                     DIY tote bag drinking vinegar cronut adaptogen squid fanny
                     pack vaporware.
                   </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
                 </div>
               </div>
             </div>

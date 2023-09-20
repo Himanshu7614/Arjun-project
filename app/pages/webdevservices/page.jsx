@@ -10,6 +10,8 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Link from "next/link";
 import Brands from "../../component/Brand/pages";
 import Testimonials from "@/app/component/Testimonials/page";
+import Textlink from "../../common/Button/Textlink"
+
 
 function webdevservices() {
   return (
@@ -31,6 +33,8 @@ function webdevservices() {
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
             <motion.div
               initial="hidden"
@@ -44,7 +48,7 @@ function webdevservices() {
               className="flex items-center"
             >
               <img
-                className="w-[30rem] lg:w-[35rem] lg:ml-[-2rem]"
+                className="w-full lg:w-[35rem] lg:ml-[-2rem] hover:scale-105 transition-all duration-500"
                 src="/services/webone.png"
                 alt="About Image"
               />
@@ -71,6 +75,9 @@ function webdevservices() {
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
+              
             </div>
             <motion.div
               initial="hidden"
@@ -84,7 +91,7 @@ function webdevservices() {
               className="flex items-center"
             >
               <img
-                className="w-[12rem] lg:w-[25rem] lg:ml-[-2rem] "
+                className="w-[12rem] lg:w-[25rem] lg:ml-[-2rem] hover:scale-105 transition-all duration-500"
                 src="/services/webtwo.png"
                 alt="About Image"
               />
@@ -118,14 +125,14 @@ function webdevservices() {
                     <img
                       alt="gallary img"
                       src="/services/sliderone.png"
-                      className="rounded-md drop-shadow-xl "
+                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 "
                     />
                   </div>
                   <div className="flex felx-row justify-center">
                     <img
                       alt="gallary img"
                       src="/services/slidertwo.png"
-                      className="rounded-md drop-shadow-xl "
+                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 "
                     />
                   </div>
                 </div>
@@ -142,6 +149,8 @@ function webdevservices() {
                     breathe digital. Our collective expertise is our superpower,
                     and we channel it to transform your online presence.
                   </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
                 </div>
               </div>
             </div>
@@ -154,14 +163,14 @@ function webdevservices() {
                     <img
                       alt="gallary img"
                       src="/services/slidertwo.png"
-                      className="rounded-md drop-shadow-xl p-2"
+                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 p-2"
                     />
                   </div>
                   <div className="flex felx-row justify-center">
                     <img
                       alt="gallary img"
                       src="/services/sliderone.png"
-                      className="rounded-md drop-shadow-xl p-2"
+                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 p-2"
                     />
                   </div>
                 </div>
@@ -178,6 +187,8 @@ function webdevservices() {
                     breathe digital. Our collective expertise is our superpower,
                     and we channel it to transform your online presence.
                   </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+
                 </div>
               </div>
             </div>

@@ -2,6 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Testimonials from "@/app/component/Testimonials/page";
+import Textlink from "../../common/Button/Textlink"
+
 
 function paidads() {
   return (
@@ -20,6 +22,8 @@ function paidads() {
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+              
             </div>
 
             <motion.div
@@ -54,6 +58,7 @@ function paidads() {
             established retailer in need of a fresh perspective, we are here to
             take your digital commerce to the next level.
           </p>
+
         </div>
         <div className="container px-5 pb-12 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
@@ -67,6 +72,8 @@ function paidads() {
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
               </p>
+              <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div
@@ -188,6 +195,7 @@ function paidads() {
                 assumenda quas optio hic commodi eaque. Optio quisquam
                 reiciendis dicta quod!
               </p>
+
             </div>
           </div>
         </div>
@@ -260,6 +268,8 @@ function paidads() {
                   </svg>
                 </div>
                 <hr className="py-[2px] w-[90%]" />
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
               </div>
             </div>
 
@@ -389,6 +399,8 @@ function paidads() {
                   </svg>
                 </div>
                 <hr className="py-[2px] w-[90%]" />
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
               </div>
             </div>
           </div>

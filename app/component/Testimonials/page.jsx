@@ -12,7 +12,7 @@ function Testimonials() {
             </h2>
           </div>
           <div class="flex flex-wrap -m-4 md:w-[80%] mx-auto">
-            <div class="p-4 md:w-1/2 w-full">
+            <div class="p-4 md:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div class="h-full bg-white text-black  p-8 rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Testimonials() {
                 </a>
               </div>
             </div>
-            <div class="p-4 md:w-1/2 w-full">
+            <div class="p-4 md:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div class="h-full bg-white text-black  p-8 rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

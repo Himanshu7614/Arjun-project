@@ -2,6 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Testimonials from "@/app/component/Testimonials/page";
+import Button from "@/app/common/Button/Button";
+import Textlink from "../../common/Button/Textlink"
 
 function Socialmedia() {
   return (
@@ -19,6 +21,8 @@ function Socialmedia() {
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div
@@ -118,6 +122,8 @@ function Socialmedia() {
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div

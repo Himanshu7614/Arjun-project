@@ -14,8 +14,8 @@ function Footer() {
                   className="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
                 >
                   <img
-                    className="w-16 md:w-20 lg:w-24 block mt-2 xl:w-[130px]"
-                    src="Images/Logo.svg"
+                    className="md:w-20 lg:w-24 block xl:w-[130px]"
+                    src="https://www.expelee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexpelee_logo_light.41a503c4.png&w=256&q=75"
                     alt=""
                   />
                 </a>
@@ -26,7 +26,7 @@ function Footer() {
 
                 </h1>
               </div>
-              <div className="flex gap-3">
+              <div className="flex gap-3 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="26"
@@ -84,7 +84,7 @@ function Footer() {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p>Visit EET Website</p>
+                <p>Visit expelee Website</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -189,31 +189,31 @@ function Footer() {
                   href=""
                   className="w-8 h-8 rounded-full text-center py-1 flex-shrink-0"
                 >
-                  <img src="Images/social/fb.png" alt="" />
+                  <img src="/social/fb.svg" alt="" />
                 </a>
                 <a
                   href=""
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
-                  <img src="Images/social/instagram.png" alt="" />
+                  <img src="/social/li.svg" alt="" />
                 </a>
                 <a
                   href=""
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
-                  <img src="Images/social/linked-in.png" alt="" />
+                  <img src="/social/x.svg" alt="" />
                 </a>
                 <a
                   href=""
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
-                  <img src="Images/social/x.png" alt="" />
+                  <img src="/social/ig.svg" alt="" />
                 </a>
                 <a
                   href=""
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
-                  <img src="Images/social/youtube.png" alt="" />
+                  <img src="/social/yt.svg" alt="" />
                 </a>
               </div>
               <h5 className="text-[1.3] font-bold mb-6 sm:text-center xl:text-left">
@@ -224,7 +224,7 @@ function Footer() {
                   href=""
                   className="w-10 h-10 rounded-full text-center py-1 flex-shrink-0"
                 >
-                  <img src="Images/social/mail.png" alt="" />
+                  <img src="/social/mail.png" alt="" />
                 </a>
                 <div className="flex flex-col">
                   <p>Send us an email</p>

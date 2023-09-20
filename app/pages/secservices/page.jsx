@@ -2,6 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Testimonials from "@/app/component/Testimonials/page";
+import Textlink from "../../common/Button/Textlink"
+
 
 function Seoservices() {
   return (
@@ -20,6 +22,8 @@ function Seoservices() {
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div
@@ -34,7 +38,7 @@ function Seoservices() {
               className="flex items-center"
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/services/seoone.png"
                 alt="About Image"
               />
@@ -56,6 +60,8 @@ function Seoservices() {
                 conversations and more time helping people live happier,
                 healthier, and more fulfilling lives.
               </p>
+              <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div
@@ -67,10 +73,10 @@ function Seoservices() {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              className="flex items-center"
+              className="flex items-center px-2"
             >
               <div className="grid grid-cols-2 gap-4">
-                <div className="w-[200px] h-[170px] rounded-lg shadow-2xl bg-white ">
+                <div className="lg:w-[200px] w-[170px] h-[170px] rounded-lg shadow-2xl bg-white hover:scale-105 transition-all duration-500">
                   <div className="flex flex-col gap-2 justify-center text-black p-4">
                     <img
                       className="w-10"
@@ -84,7 +90,7 @@ function Seoservices() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[200px] h-[170px] rounded-lg shadow-2xl bg-white mt-3 ">
+                <div className="lg:w-[200px] w-[170px] h-[170px] rounded-lg shadow-2xl bg-white mt-3 hover:scale-105 transition-all duration-500">
                   <div className="flex flex-col gap-2 justify-center text-black p-4">
                     <img
                       className="w-10"
@@ -98,7 +104,7 @@ function Seoservices() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[200px] h-[170px] rounded-lg shadow-2xl bg-white ">
+                <div className="lg:w-[200px] w-[170px] h-[170px] rounded-lg shadow-2xl bg-white hover:scale-105 transition-all duration-500 ">
                   <div className="flex flex-col gap-2 justify-center text-black p-4">
                     <img
                       className="w-10"
@@ -112,7 +118,7 @@ function Seoservices() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[200px] h-[170px] rounded-lg shadow-2xl bg-white mt-3 ">
+                <div className="lg:w-[200px] w-[170px] h-[170px] rounded-lg shadow-2xl bg-white mt-3 hover:scale-105 transition-all duration-500">
                   <div className="flex flex-col gap-2 justify-center text-black p-4">
                     <img
                       className="w-10"
@@ -133,7 +139,7 @@ function Seoservices() {
       </section>
 
       {/* last section */}
-      <section class="text-white body-font overflow-hidden">
+      <section class="text-white body-font overflow-hidden px-2">
         <div class="container pb-12 pt-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
@@ -153,7 +159,7 @@ function Seoservices() {
           </div>
         </div>
       </section>
-      <section class="text-white body-font overflow-hidden">
+      <section class="text-white body-font overflow-hidden px-2">
         <div class="container pb-12 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
@@ -180,6 +186,8 @@ function Seoservices() {
                 <p className="text-lg font-bold">SEO AUDITS AND REPORTING</p>
                 <hr className="py-[2px] w-[90%]" />
               </div>
+              <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
 
             <motion.div
@@ -194,7 +202,7 @@ function Seoservices() {
               className="flex items-center pt-4"
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/services/seotwo.png"
                 alt="About Image"
               />

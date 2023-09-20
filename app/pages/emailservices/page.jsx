@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Textlink from "../../common/Button/Textlink"
 
 function Emailservices() {
   return (
@@ -18,6 +19,8 @@ function Emailservices() {
               giving your brand a rocket-powered boost into the digital cosmos.
               Let's embark on this cosmic journey together!
             </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
           </div>
         </div>
       </section>
@@ -69,6 +72,8 @@ function Emailservices() {
                 social media management. We provide a comprehensive, cohesive
                 approach to elevate your brand online.
               </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
             </div>
           </div>
         </div>
@@ -86,8 +91,8 @@ function Emailservices() {
         </h1>
         <p class="mb-8">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">
-            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+                        <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
         </div>
         </div>
     </div>
@@ -99,8 +104,8 @@ function Emailservices() {
         </h1>
         <p class="mb-8">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
         <div class="flex justify-center">
-            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+                        <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
         </div>
         </div>        
         <div class="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
@@ -130,13 +135,19 @@ function Emailservices() {
         <div className="container px-5 mx-auto">
           <div className="flex flex-wrap -mb-10 text-center justify-center items-center md:w-[70%] mx-auto ">
             <div className="sm:w-1/2 mb-10 px-4">
-                <div className="h-[200px] w-[300px] bg-white relative rounded-lg">
+                <div className="h-[200px] w-[300px] bg-white relative rounded-lg flex flex-col justify-center items-center">
                       <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
+                      <h1 className="text-lg mx-auto">20%</h1>
+                      <h1 className="text-lg mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
                 </div>
             </div>
             <div className="sm:w-1/2 mb-10 px-4">
-            <div className="h-[200px] w-[300px] bg-white relative rounded-lg">
+            <div className="h-[200px] w-[300px] bg-white relative rounded-lg flex flex-col justify-center items-center">
                       <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
+                      <h1 className="text-lg mx-auto">20%</h1>
+                      <h1 className="text-lg mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+
+
                 </div>
               </div>
           </div>

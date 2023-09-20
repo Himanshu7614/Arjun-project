@@ -9,9 +9,9 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="container-fluid shadow-md bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
-      <div className="container  mx-auto  backdrop-blur-xl">
-        <div className="flex flex-row mx-auto px-[3rem] justify-between items-center bg-bgGrey relative text-textWhite">
+    <div className="container-fluid drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
+      <div className="container w-[90%] mx-auto  ">
+        <div className="flex flex-row mx-auto justify-between items-center bg-bgGrey relative text-textWhite">
           <motion.div
             initial={{
               x: -500,
@@ -24,12 +24,12 @@ function Navbar() {
               scale: 1,
             }}
             transition={{
-              duration: 1.5,
+              duration: 0.5,
             }}
           >
-            <Link href={"/"}>
+            <Link href={"/pages/"}>
               <img
-                className="w-[10rem] lg:w-[10rem] lg:h-[3.5rem]"
+                className="w-[8rem] lg:w-[10rem] lg:h-[3.5rem]"
                 src="https://www.expelee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexpelee_logo_light.41a503c4.png&w=256&q=75"
                 alt="Expelee Logo"
               />
@@ -59,13 +59,15 @@ function Navbar() {
               </svg>
               {/* dropdown */}
               <div className="absolute top-[65%] py-6 left-0 w-screen bg-transperent invisible group-hover/Home:visible transition duration-300 text-white ">
-                <div className="w-full ">
-                  <div className=" bg-[#000000] backdrop-blur-xl  px-24 py-8">
+                <div className="w-full backdrop-blur-xl ">
+                  <div className=" bg-[#0c0713] backdrop-blur-xl  px-24 py-8">
                     <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center my-5">
                       <div className="grid-cols-2">
                         <div className="flex items-start gap-5">
                           <div className="mt-6">
-                            <h1 className="text-3xl extrabold mb-4">Our services </h1>
+                            <h1 className="text-3xl extrabold mb-4">
+                              Our services{" "}
+                            </h1>
                             <p className="text-sm">
                               Unlocking possibilities and exceeding expectations
                               through our comprehensive range of exceptional
@@ -80,28 +82,24 @@ function Navbar() {
                             <h1>SERVICES</h1>
                             <ul className="mt-6 space-y-4 text-sm">
                               <li>
-                                <a
-                                  href="#"
+                                <Link href="/pages/webdevservices" 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                >
-                                  Webdevelopment
-                                </a>
+                                  >Webdevelopment</Link>
+                                
+                                  
                               </li>
                               <li>
-                                <a
-                                  href="#"
-                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                >
-                                  Web degins
-                                </a>
+                                <Link href="/pages/contentservices
+                                "
+                                className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                >Content Management</Link>
+
                               </li>
                               <li>
-                                <a
-                                  href="#"
+                              <Link href="/pages/emailservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                >
-                                  Content Management
-                                </a>
+                                  >Email services</Link>
+                              
                               </li>
                             </ul>
                           </div>
@@ -110,31 +108,31 @@ function Navbar() {
                       <div className="grid-cols-2">
                         <div className="flex items-start gap-5">
                           <div>
-                          {/* <h1>SERVICES</h1> */}
+                            {/* <h1>SERVICES</h1> */}
                             <ul className="mt-[34px] space-y-4 text-sm">
                               <li>
-                                <a
-                                  href="#"
+                                <Link
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  href="/pages/paidads"
                                 >
-                                  Webdevelopment
-                                </a>
+                                  {" "}
+                                  Paid Ads
+                                </Link>
                               </li>
                               <li>
-                                <a
-                                  href="#"
+                                <Link href="/pages/secservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                >
-                                  Web degins
-                                </a>
+                                  > Seo services</Link>
                               </li>
                               <li>
-                                <a
-                                  href="#"
+                                <Link href="/pages/socialservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                >
-                                  Content Management
-                                </a>
+                                  > Social services</Link>
+                              </li>
+                              <li>
+                                <Link href={"/pages/analyst"}
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Analyst</Link>
                               </li>
                             </ul>
                           </div>
@@ -147,13 +145,13 @@ function Navbar() {
               {/* dropdown */}
             </div>
             <Link
-              href="/pages/About"
+              href="/pages/about"
               className="font-semibold flex gap-1 items-center group/Home"
             >
               About-us
             </Link>
             <Link
-              href="/pages/Contact"
+              href="/pages/contact"
               className="font-semibold flex gap-1 items-center group/Home"
             >
               Contact
@@ -166,7 +164,7 @@ function Navbar() {
             </div>
           </div>
           <div className="hidden lg:block">
-            <Button text="Contact Us"/>
+            <Button text="Contact Us" className={"font-bold hover:bg-gradient-to-b from-purple-200 via-purple-300 to-slate-500"} />
           </div>
           <div
             className="blocl lg:hidden relative"
@@ -174,7 +172,25 @@ function Navbar() {
               setShowMenu(showMenu === true ? false : true);
             }}
           >
-            {/* <div><HiMenuAlt3 size={30} /></div> */}
+            <svg
+            className="text-[#ffffff]"
+              width="50px"
+              height="50px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Menu / Menu_Alt_01">
+                <path
+                  id="Vector"
+                  d="M12 17H19M5 12H19M5 7H19"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+            </svg>
           </div>
         </div>
       </div>
@@ -182,19 +198,17 @@ function Navbar() {
         className={`${
           showMenu
             ? "flex lg:hidden"
-            : "hidden fixed top-[5%] lg:hidden duration-300"
+            : "hidden fixed top-[5%] lg:hidden transition-all duration-700 "
         }`}
       >
         <div className="my-5 mx-5">
           <div className="flex flex-col gap-4 ">
             <div className="flex flex-col gap-2 relative">
-              <div className="flex gap-2 items-center group/Drops">
-                <p className="text-normal">Home</p>
-              </div>
-              <div className="hidden flex-col gap-1 bg-transperent  group-hover/Drops:flex ">
-                <p className="text-normal">Services</p>
-                <p className="text-normal">Services</p>
-                <p className="text-normal">Services</p>
+              <div className="flex gap-2 items-center group/Drops border-yellow-100">
+                <p className="text-normal">
+                <Link href="/pages/">Home</Link>
+
+                </p>
               </div>
             </div>
 
@@ -204,22 +218,17 @@ function Navbar() {
               {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
             </div>
             <div className="flex gap-4 items-center">
-              <p className="text-normal">Solutions</p>
-
+              <p className="text-normal">
+              <Link href="/pages/about">About us</Link>
+              </p>
               {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
             </div>
             <div className="flex gap-4 items-center">
-              <p className="text-normal">Company</p>
+              <p className="text-normal">
+                <Link href="/pages/contact">Contact</Link>
+              </p>
 
               {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
-            </div>
-            <div className="flex gap-4 items-center">
-              <p className="text-normal">Resouces</p>
-
-              {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
-            </div>
-            <div className="flex gap-4 items-center">
-              <p className="text-normal">Contract</p>
             </div>
           </div>
         </div>
