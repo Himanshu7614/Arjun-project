@@ -4,7 +4,7 @@ import React from 'react'
 function Textlink({ text, className, href }) {
   return (
     <div>
-        <div className={`flex items-center gap-2 hover:gap-3 trasi duration-500 py-5 ${className}`}>
+        <div className={`flex items-center gap-2 hover:gap-3 trasi duration-500 py-2 ${className}`}>
       <Link href={`${href}`} >
         {text}
       </Link>
