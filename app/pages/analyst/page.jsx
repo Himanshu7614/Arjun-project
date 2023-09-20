@@ -34,7 +34,7 @@ function analiyst() {
             >
               <img
                 className="lg:w-[35rem] mx-auto hover:scale-105 transition-all cursor-pointer-all duration-500"
-                src="/services/webone.png"
+                src="/services/analytics-one.png"
                 alt="About Image"
               />
             </motion.div>
@@ -150,7 +150,7 @@ function analiyst() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
-                src="/services/seotwo.png"
+                src="/services/analytics-two.png"
                 alt="About Image"
               />
             </motion.div>
@@ -193,7 +193,7 @@ function analiyst() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
-                src="/services/seotwo.png"
+                src="/services/analytics-three.png"
                 alt="About Image"
               />
             </motion.div>

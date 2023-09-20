@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-Link
 function Footer() {
   return (
     <div>
@@ -10,7 +9,7 @@ function Footer() {
             <div className="px-4 flex flex-col gap-5">
               <div className="mb-2 sm:mb-0">
                 <a
-                  href="#"
+                  href="/"
                   className="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
                 >
                   <img
@@ -84,7 +83,8 @@ function Footer() {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p>Visit expelee Website</p>
+
+                <Link href="https://www.expelee.com/">Visit expelee Website</Link> 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -150,39 +150,25 @@ function Footer() {
             </div>
             <div className="px-4 mt-8 md:mt-0">
               <h5 className="text-xl font-bold mb-6">Help</h5>
-              <ul className="list-none footer-links">
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent"
-                  >
-                    Contact Us
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent"
-                  >
-                    Media
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent"
-                  >
-                    Press Releases
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent"
-                  >
-                    Media
-                  </a>
-                </li>
+              <ul className="list-none footer-links flex flex-col gap-2">
+              <Link
+              href="/"
+              className="font-semibold flex gap-1 items-center group/Home"
+            >
+              Portfolio
+            </Link>
+            <Link
+              href="/pages/about"
+              className="font-semibold flex gap-1 items-center group/Home"
+            >
+              About-us
+            </Link>
+            <Link
+              href="/pages/contact"
+              className="font-semibold flex gap-1 items-center group/Home"
+            >
+              Contact
+            </Link>
               </ul>
             </div>
             <div className="px-4 mt-4 xl:mt-0 flex flex-col">
@@ -192,13 +178,7 @@ function Footer() {
               <div className="flex sm:justify-center xl:justify-start mb-6 gap-2">
                 <a
                   href=""
-                  className="w-8 h-8 rounded-full text-center py-1 flex-shrink-0"
-                >
-                  <img src="/social/fb.svg" alt="" />
-                </a>
-                <a
-                  href=""
-                  className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
+                  className="w-8 h-8 border-gray-400 rounded-full text-center py-1 flex-shrink-0"
                 >
                   <img src="/social/li.svg" alt="" />
                 </a>
@@ -213,12 +193,6 @@ function Footer() {
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
                   <img src="/social/ig.svg" alt="" />
-                </a>
-                <a
-                  href=""
-                  className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
-                >
-                  <img src="/social/yt.svg" alt="" />
                 </a>
               </div>
               <h5 className="text-[1.3] font-bold mb-6 sm:text-center xl:text-left">

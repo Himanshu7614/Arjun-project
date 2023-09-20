@@ -143,7 +143,7 @@ function Contentservices() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0 hover:scale-105 transition-all duration-500"
-                src="/services/seotwo.png"
+                src="/services/content-two.png"
                 alt="About Image"
               />
             </motion.div>
@@ -172,7 +172,7 @@ function Contentservices() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-[200px] h-[200px] object-cover object-center mb-4"
-                  src="/services/paidads-one.png"
+                  src="/services/c-one.png"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-bold">Alper Kamu</h2>
@@ -184,7 +184,7 @@ function Contentservices() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-[200px] h-[200px] object-cover object-center mb-4"
-                  src="/services/paidads-one.png"
+                  src="/services/c-three.png"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-bold">Alper Kamu</h2>
@@ -196,7 +196,7 @@ function Contentservices() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-[200px] h-[200px] object-cover object-center mb-4"
-                  src="/services/paidads-one.png"
+                  src="/services/c-two.png"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-bold">Alper Kamu</h2>
@@ -208,7 +208,7 @@ function Contentservices() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-[200px] h-[200px] object-cover object-center mb-4"
-                  src="/services/paidads-one.png"
+                  src="/services/c-6.png"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-bold">Alper Kamu</h2>
@@ -220,7 +220,7 @@ function Contentservices() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-[200px] h-[200px] object-cover object-center mb-4"
-                  src="/services/paidads-one.png"
+                  src="/services/c-five.png"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-bold">Alper Kamu</h2>
@@ -232,7 +232,7 @@ function Contentservices() {
                 <img
                   alt="team"
                   className="flex-shrink-0 rounded-lg w-[200px] h-[200px] object-cover object-center mb-4"
-                  src="/services/paidads-one.png"
+                  src="/services/c-four.png"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-bold">Alper Kamu</h2>
@@ -262,7 +262,7 @@ function Contentservices() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0 hover:scale-105 transition-all duration-500"
-                src="/services/seotwo.png"
+                src="/services/content-two.png"
                 alt="About Image"
               />
             </motion.div>

@@ -27,7 +27,7 @@ function Navbar() {
               duration: 0.5,
             }}
           >
-            <Link href={"/pages/"}>
+            <Link href={"/"}>
               <img
                 className="w-[8rem] lg:w-[10rem] lg:h-[3.5rem] lg:ml-24"
                 src="/logo.png"
@@ -145,6 +145,12 @@ function Navbar() {
               {/* dropdown */}
             </div>
             <Link
+              href="/"
+              className="font-semibold flex gap-1 items-center group/Home"
+            >
+              Portfolio
+            </Link>
+            <Link
               href="/pages/about"
               className="font-semibold flex gap-1 items-center group/Home"
             >
@@ -156,12 +162,7 @@ function Navbar() {
             >
               Contact
             </Link>
-            <div className="font-semibold flex gap-1 items-center   group/Home">
-              Resouces
-            </div>
-            <div className="font-semibold flex gap-1 items-center">
-              <Link href="./pages/contact">Contact</Link>
-            </div>
+            
           </div>
           <div className="hidden lg:block mr-24">
             <Button text="Contact Us" className={"font-bold hover:bg-gradient-to-b from-purple-200 via-purple-300 to-slate-500"} />

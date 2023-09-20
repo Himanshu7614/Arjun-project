@@ -96,7 +96,7 @@ function homepage() {
           </div>
           <div className="flex flex-wrap -m-2 text-center md:w-[80%] mx-auto ">
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
@@ -109,7 +109,7 @@ function homepage() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
@@ -122,7 +122,7 @@ function homepage() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
@@ -135,7 +135,7 @@ function homepage() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
@@ -148,7 +148,7 @@ function homepage() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
-              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+              <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
                   Website Development
                 </h2>
@@ -161,7 +161,7 @@ function homepage() {
               </div>
             </div>
             <div class="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
-              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[200px] flex flex-col justify-center gap-3">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 class="title-font font-bold text-2xl ">
                   Website Development
                 </h2>

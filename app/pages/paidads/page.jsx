@@ -48,7 +48,7 @@ function paidads() {
       </section>
 
       <section className="text-white body-font overflow-hidden">
-        <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
+        <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[70%] mx-auto">
           <p className="text-sm uppercase">WORK WITH US</p>
           <h2 className="text-4xl font-bold  tracking-widest">
             Achieve top search rankings with our seo services
@@ -62,7 +62,7 @@ function paidads() {
         </div>
         <div className="container px-5 pb-12 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
               <p className="text-sm uppercase">WORK WITH US</p>
               <h2 className="text-4xl font-bold  tracking-widest">
                 Achieve top search rankings with our seo services
@@ -89,7 +89,7 @@ function paidads() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                src="/services/webone.png"
+                src="/services/paid-one.png"
                 alt="About Image"
               />
             </motion.div>
@@ -330,7 +330,7 @@ function paidads() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
-                src="/services/seotwo.png"
+                src="/services/paid-one.png"
                 alt="About Image"
               />
             </motion.div>

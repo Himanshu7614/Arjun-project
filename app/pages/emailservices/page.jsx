@@ -41,7 +41,7 @@ function Emailservices() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                src="/homepage/imgtwo.png"
+                src="/services/email-one.png"
                 alt="About Image"
               />
             </motion.div>
