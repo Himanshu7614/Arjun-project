@@ -103,22 +103,22 @@ function Socialmedia() {
                 So what do we do exactly?
               </h2>
               <p className="leading-relaxed mb-4">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm.
               </p>
               <p className="leading-relaxed mb-4">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm.
               </p>
               <p className="leading-relaxed mb-4">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm.
               </p>
               <p className="leading-relaxed mb-4">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm.
               </p>

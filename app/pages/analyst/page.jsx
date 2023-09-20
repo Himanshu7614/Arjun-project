@@ -15,9 +15,9 @@ function analiyst() {
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
               Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
-              we're not just about boosting your online presence; we're about
+              were not just about boosting your online presence; were about
               giving your brand a rocket-powered boost into the digital cosmos.
-              Let's embark on this cosmic journey together!
+              Lets embark on this cosmic journey together!
             </p>
           </div>
         </div>

@@ -273,22 +273,22 @@ function Contentservices() {
                 So what do we do exactly?
               </h2>
               <p className="leading-relaxed mb-4">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm. Our secret sauce? It's
-                our people. We're not your typical 9-to-5 crew; we're a group of
+                businesses thrive in the online realm. Our secret sauce? Its
+                our people. Were not your typical 9-to-5 crew; were a group of
                 enthusiastic individuals who eat, sleep, and breathe digital.
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
               </p>
               <p className="leading-relaxed mb-4">
-                What sets us apart? It's our commitment to tailored strategies.
+                What sets us apart? Its our commitment to tailored strategies.
                 We understand that your business is as unique as a fingerprint,
-                and your digital journey should reflect that. That's why we take
+                and your digital journey should reflect that. Thats why we take
                 the time to get to know you, your industry, and your
                 aspirations. We craft personalized strategies that align
-                perfectly with your identity and goals. But we're not just
-                strategists. We're your digital partners. Our services go beyond
+                perfectly with your identity and goals. But were not just
+                strategists. Were your digital partners. Our services go beyond
                 the norm, covering everything from SEO and content marketing to
                 social media management. We provide a comprehensive, cohesive
                 approach to elevate your brand online.

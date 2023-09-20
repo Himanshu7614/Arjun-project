@@ -15,7 +15,7 @@ function Footer() {
                 >
                   <img
                     className="md:w-20 lg:w-24 block xl:w-[130px]"
-                    src="https://www.expelee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexpelee_logo_light.41a503c4.png&w=256&q=75"
+                    src="/logo.png"
                     alt=""
                   />
                 </a>
@@ -101,46 +101,51 @@ function Footer() {
             </div>
             <div className="px-4 mt-8 md:mt-0">
               <h5 className="text-xl font-bold mb-6">Projects</h5>
-              <ul className="list-none footer-links">
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b text-xs border-solid border-transparent"
-                  >
-                    text
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent"
-                  >
-                    text
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <Link
-                    href="/about"
-                    className="border-b border-solid border-transparent"
-                  >Hello</Link>
-                    
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent"
-                  >
-                    text
-                  </a>
-                </li>
-                <li className="">
-                  <a
-                    href="#"
-                    className="border-b border-solid border-transparent font-bold pt-[1.5rem]"
-                  >
-                    text
-                  </a>
-                </li>
+              <ul className="list-none footer-links flex flex-col gap-2">
+              <li>
+                                <Link href="/pages/webdevservices" 
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Webdevelopment</Link>
+                                
+                                  
+                              </li>
+                              <li>
+                                <Link href="/pages/contentservices
+                                "
+                                className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                >Content Management</Link>
+
+                              </li>
+                              <li>
+                              <Link href="/pages/emailservices"
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Email services</Link>
+                              
+                              </li>
+                              <li>
+                                <Link
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  href="/pages/paidads"
+                                >
+                                  {" "}
+                                  Paid Ads
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="/pages/secservices"
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  > Seo services</Link>
+                              </li>
+                              <li>
+                                <Link href="/pages/socialservices"
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  > Social services</Link>
+                              </li>
+                              <li>
+                                <Link href={"/pages/analyst"}
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Analyst</Link>
+                              </li>
               </ul>
             </div>
             <div className="px-4 mt-8 md:mt-0">

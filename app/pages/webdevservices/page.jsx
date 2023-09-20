@@ -25,10 +25,10 @@ function webdevservices() {
                 We Build Web Designs that skyrocket your business
               </h2>
               <p class="leading-relaxed mb-4 text-sm">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm. Our secret sauce? It's
-                our people. We're not your typical 9-to-5 crew; we're a group of
+                businesses thrive in the online realm. Our secret sauce? Its
+                our people. Were not your typical 9-to-5 crew; were a group of
                 enthusiastic individuals who eat, sleep, and breathe digital.
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
@@ -67,10 +67,10 @@ function webdevservices() {
                 We Build Web Designs that skyrocket your business
               </h2>
               <p class="leading-relaxed mb-4 text-sm">
-                We're not just another digital marketing agency. We're a
+                Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm. Our secret sauce? It's
-                our people. We're not your typical 9-to-5 crew; we're a group of
+                businesses thrive in the online realm. Our secret sauce? Its
+                our people. Were not your typical 9-to-5 crew; were a group of
                 enthusiastic individuals who eat, sleep, and breathe digital.
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
@@ -141,10 +141,10 @@ function webdevservices() {
                     We Build Web Designs that skyrocket your business
                   </h2>
                   <p class="leading-relaxed mb-4 text-sm">
-                    We're not just another digital marketing agency. We're a
+                    Were not just another digital marketing agency. Were a
                     passionate team of experts driven by a deep love for helping
                     businesses thrive in the online realm. Our secret sauce?
-                    It's our people. We're not your typical 9-to-5 crew; we're a
+                    Its our people. Were not your typical 9-to-5 crew; were a
                     group of enthusiastic individuals who eat, sleep, and
                     breathe digital. Our collective expertise is our superpower,
                     and we channel it to transform your online presence.
@@ -179,10 +179,10 @@ function webdevservices() {
                     We Build Web Designs that skyrocket your business
                   </h2>
                   <p class="leading-relaxed mb-4 text-sm">
-                    We're not just another digital marketing agency. We're a
+                    Were not just another digital marketing agency. Were a
                     passionate team of experts driven by a deep love for helping
                     businesses thrive in the online realm. Our secret sauce?
-                    It's our people. We're not your typical 9-to-5 crew; we're a
+                    Its our people. Were not your typical 9-to-5 crew; were a
                     group of enthusiastic individuals who eat, sleep, and
                     breathe digital. Our collective expertise is our superpower,
                     and we channel it to transform your online presence.
@@ -291,7 +291,7 @@ function webdevservices() {
                   </svg>
                 </button>
                 <p class="text-xs text-gray-500 mt-3">
-                  Literally you probably haven't heard of them jean shorts.
+                  Literally you probably havent heard of them jean shorts.
                 </p>
               </div>
             </div>

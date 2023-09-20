@@ -30,7 +30,7 @@ function Navbar() {
             <Link href={"/pages/"}>
               <img
                 className="w-[8rem] lg:w-[10rem] lg:h-[3.5rem]"
-                src="https://www.expelee.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexpelee_logo_light.41a503c4.png&w=256&q=75"
+                src="/logo.png"
                 alt="Expelee Logo"
               />
             </Link>
