@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Button({ text, className, href }) {
   return (
-    <div className={` px-6 py-2 bg-[#c9c9c93f] transition-all duration-500 rounded-full hover:scale-105 flex items-center gap-2 hover:gap-3 ${className}`}>
+    <div className={` px-6 py-2 bg-[#0000004f] transition-all duration-500 rounded-full hover:scale-105 flex items-center gap-2 hover:gap-3 ${className}`}>
       <Link href={`${href}`} >
         {text}
       </Link>

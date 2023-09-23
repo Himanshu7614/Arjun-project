@@ -15,12 +15,10 @@ function Seoservices() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
               <h2 class="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              Achieve top search rankings with our seo services
               </h2>
               <p class="leading-relaxed mb-4">
-                Whether you’re a startup looking for that extra kick or an
-                established retailer in need of a fresh perspective, we are here
-                to take your digital commerce to the next level.
+              Boost your online visibility and drive organic traffic with our top-notch SEO service. Our experts will optimize your website for search engines, ensuring you reach your target audience and outshine the competition. Take your digital presence to new heights today!
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -50,15 +48,12 @@ function Seoservices() {
         <div class="container px-5 py-12 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
+              <p className="text-sm uppercase font-semibold">WORK WITH US</p>
               <h2 class="text-4xl font-bold  tracking-widest">
                 DRIVE TARGETED TRAFFIC AND BOOST CONVERSIONS
               </h2>
               <p class="leading-relaxed mb-4">
-                We create website that clearly reflects your expertise, story,
-                and values — so you can spend less time having sales
-                conversations and more time helping people live happier,
-                healthier, and more fulfilling lives.
+              With Elevate Clicks cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
               </p>
               <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -85,8 +80,7 @@ function Seoservices() {
                     />
                     <h2 className="font-bold">INCREASE TRAFFIC</h2>
                     <p className="text-sm">
-                      We create website that clearly reflects your expertise,
-                      story, and values
+                    CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
                     </p>
                   </div>
                 </div>
@@ -97,10 +91,8 @@ function Seoservices() {
                       src="/services/icone-one.png"
                       alt=""
                     />
-                    <h2 className="font-bold">INCREASE TRAFFIC</h2>
-                    <p className="text-sm">
-                      We create website that clearly reflects your expertise,
-                      story, and values
+                    <h2 className="font-bold">IMPROVED RANKINGS</h2>
+                    <p className="text-sm">Our expertise will help you to improve visibility  in search engine results.
                     </p>
                   </div>
                 </div>
@@ -111,10 +103,8 @@ function Seoservices() {
                       src="/services/icone-one.png"
                       alt=""
                     />
-                    <h2 className="font-bold">INCREASE TRAFFIC</h2>
-                    <p className="text-sm">
-                      We create website that clearly reflects your expertise,
-                      story, and values
+                    <h2 className="font-bold">SUSTAINABLE GROWTH</h2>
+                    <p className="text-sm">Our SEO strategies focus on sustainable  with search engine guidelines.
                     </p>
                   </div>
                 </div>
@@ -125,10 +115,8 @@ function Seoservices() {
                       src="/services/icone-one.png"
                       alt=""
                     />
-                    <h2 className="font-bold">INCREASE TRAFFIC</h2>
-                    <p className="text-sm">
-                      We create website that clearly reflects your expertise,
-                      story, and values
+                    <h2 className="font-bold">TARGETED AUDIENCE</h2>
+                    <p className="text-sm">we focus on targeting specific keywords  to attract  your ideal audience.
                     </p>
                   </div>
                 </div>
@@ -145,15 +133,12 @@ function Seoservices() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
               <h2 class="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
               </h2>
             </div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center ">
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab
-                suscipit nobis, est ex dolorum eveniet impedit totam temporibus
-                assumenda quas optio hic commodi eaque. Optio quisquam
-                reiciendis dicta quod!
+              From keyword research and on-page optimization to link building and content creation, our comprehensive approach guarantees long-term success and lasting impact with proven SEO techniques
               </p>
             </div>
           </div>
@@ -166,12 +151,10 @@ function Seoservices() {
               <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
                 <p className="text-sm uppercase">WORK WITH US</p>
                 <h2 class="text-xl font-bold  tracking-widest">
-                  Achieve top search rankings with our seo services
+                Off-Page Optimization
                 </h2>
                 <p class="leading-relaxed mb-4">
-                  Whether you’re a startup looking for that extra kick or an
-                  established retailer in need of a fresh perspective, we are
-                  here to take your digital commerce to the next level.
+                Building high quality backlinks from reputable websites with influencer outreach to enhance your rankings.
                 </p>
               </div>
               <div className="mt-[2rem] flex flex-col gap-4">

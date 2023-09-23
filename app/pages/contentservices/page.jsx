@@ -11,15 +11,10 @@ function Contentservices() {
    <section className="text-white body-font overflow-hidden">
         <div className="container px-5 pb-12 pt-24 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 className="text-4xl font-bold  tracking-widest">
-              content : the heart of digital communication
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
+              <h2 className="text-4xl font-bold ">Content is the heart of digital communication
               </h2>
-              <p className="leading-relaxed mb-4">
-                Whether you’re a startup looking for that extra kick or an
-                established retailer in need of a fresh perspective, we are here
-                to take your digital commerce to the next level.
+              <p className="leading-relaxed mb-4">Were not just creating content; were crafting conversations. Dive into our world of words, where stories resonate, and connections flourish. Unleash the power of meaningful content.
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -52,8 +47,7 @@ function Contentservices() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              <h2 class="text-4xl font-bold ">How content marketing can be a game changer
               </h2>
             </div>
           </div>
@@ -62,72 +56,12 @@ function Contentservices() {
       <section class="text-white body-font overflow-hidden">
         <div class="container pb-12 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
-              <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
+            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
                 <p className="text-sm uppercase">WORK WITH US</p>
-                <h2 class="text-xl font-bold  tracking-widest">
-                  Achieve top search rankings with our seo services
-                </h2>
-                <p class="leading-relaxed mb-4">
-                  Whether you’re a startup looking for that extra kick or an
-                  established retailer in need of a fresh perspective, we are
-                  here to take your digital commerce to the next level.
+                <p class="leading-relaxed mb-4">We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives..
                 </p>
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
+                <p class="leading-relaxed mb-4">We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives..
+                </p>
             </div>
 
             <motion.div
@@ -157,8 +91,8 @@ function Contentservices() {
         <div className="container px-5 py-24 mx-auto bg-white bg-opacity-10">
           <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
             <p className="text-sm uppercase">WORK WITH US</p>
-            <h2 className="text-4xl font-bold  tracking-widest">
-              Achieve top search rankings with our seo services
+            <h2 className="text-4xl font-bold ">
+            Types of content marketing we provide
             </h2>
             <p className="leading-relaxed mb-4">
               Whether you’re a startup looking for that extra kick or an
@@ -175,7 +109,7 @@ function Contentservices() {
                   src="/services/c-one.png"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">Blog</h2>
                 </div>
               </div>
             </div>
@@ -187,7 +121,7 @@ function Contentservices() {
                   src="/services/c-three.png"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">Social media</h2>
                 </div>
               </div>
             </div>
@@ -199,7 +133,7 @@ function Contentservices() {
                   src="/services/c-two.png"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">Podcasts</h2>
                 </div>
               </div>
             </div>
@@ -211,7 +145,7 @@ function Contentservices() {
                   src="/services/c-6.png"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">EMAIL NEWSLETTERS</h2>
                 </div>
               </div>
             </div>
@@ -223,7 +157,7 @@ function Contentservices() {
                   src="/services/c-five.png"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">INFOGRAPHICS</h2>
                 </div>
               </div>
             </div>
@@ -235,7 +169,7 @@ function Contentservices() {
                   src="/services/c-four.png"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">VIDEO PRODUCTION</h2>
                 </div>
               </div>
             </div>
@@ -269,8 +203,8 @@ function Contentservices() {
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
 
-              <h2 className="text-4xl font-bold  tracking-widest">
-                So what do we do exactly?
+              <h2 className="text-4xl font-bold ">
+              Benefits to start you’re content journey now
               </h2>
               <p className="leading-relaxed mb-4">
                 Were not just another digital marketing agency. Were a

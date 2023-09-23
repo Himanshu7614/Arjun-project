@@ -12,14 +12,10 @@ function Socialmedia() {
         <div className="container px-5 pb-12 pt-24 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
               <h2 className="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              Boost Your Brand with Our Social Media Mastery
               </h2>
-              <p className="leading-relaxed mb-4">
-                Whether you’re a startup looking for that extra kick or an
-                established retailer in need of a fresh perspective, we are here
-                to take your digital commerce to the next level.
+              <p className="leading-relaxed mb-4">Unlock the full potential of your brand with our Social Media Management Service, We craft engaging content, build meaningful connections, and drive results. Elevate your online presence today!
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -49,14 +45,10 @@ function Socialmedia() {
       <section className="md:w-[80%] mx-auto body-font">
   <div className="container px-5 py-24 mx-auto">
   <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
-              <p className="text-sm uppercase">WORK WITH US</p>
               <h2 className="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              social media marketing at your service
               </h2>
-              <p className="leading-relaxed mb-4">
-                Whether you’re a startup looking for that extra kick or an
-                established retailer in need of a fresh perspective, we are here
-                to take your digital commerce to the next level.
+              <p className="leading-relaxed mb-4">Social media platforms are diverse, and each has its own unique audience and best practices. A professional service has the expertise to navigate these intricacies and optimize your presence on each platform.
               </p>
             </div>
 
@@ -100,27 +92,21 @@ function Socialmedia() {
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
               <h2 className="text-4xl font-bold my-4">
-                So what do we do exactly?
+              Why you need a social media manager
               </h2>
-              <p className="leading-relaxed mb-4">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm.
+              <p className="leading-relaxed mb-4">Social media isn’t your thing.
+Hand it over to those who are trained in the industry so you can focus on other areas of your business !
+              </p>
+              <p className="leading-relaxed mb-4">You don’t have the time on your hands.
+if you simply don’t have time for social media thing hand it over to experts who can help you out to be visible on social media platforms
+              </p>
+              <p className="leading-relaxed mb-4">You need to improve social media engagement
+Social media manager are trained and make sure to increase the rate of engagement with your audience.
+
               </p>
               <p className="leading-relaxed mb-4">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm.
-              </p>
-              <p className="leading-relaxed mb-4">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm.
-              </p>
-              <p className="leading-relaxed mb-4">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm.
+You need a clear strategy to be created
+Planning and organizing your content to ensure you get the highest engagement is one of our main rules.
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 

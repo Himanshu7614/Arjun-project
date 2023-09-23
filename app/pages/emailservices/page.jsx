@@ -1,26 +1,29 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Textlink from "../../common/Button/Textlink"
+import Textlink from "../../common/Button/Textlink";
 
 function Emailservices() {
   return (
     <div>
-        {/* first section */}
-    <section className="text-white body-font my-[3rem]">
-        <div className="container px-5 py-24 mx-auto">
+      {/* first section */}
+      <section className="text-white body-font my-[3rem]">
+        <div className="container px-5 pt-24 mx-auto">
           <div className="flex flex-col items-center text-center w-full mb-12">
-            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
-              We turn ideas into extraordinary digital products & experiences
+            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%]  mb-6">
+              Boost your ROI with the industry-leading email marketing platform
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
-              Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
-              were not just about boosting your online presence; were about
-              giving your brand a rocket-powered boost into the digital cosmos.
-              Lets embark on this cosmic journey together!
+              Are you ready to take your email marketing efforts to the next
+              level? Look no further! Elevate Clicks is here to transform the
+              way you engage with your audience, boost your brands visibility,
+              and drive remarkable results.
             </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
-
+            <Textlink
+              text={"Get in touch"}
+              href={"/pages/contact"}
+              className={"font-bold"}
+            />
           </div>
         </div>
       </section>
@@ -46,120 +49,146 @@ function Emailservices() {
               />
             </motion.div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
+              <p className="text-sm uppercase font-semibold">WORK WITH US</p>
 
-              <h2 className="text-4xl font-bold  tracking-widest">
-                So what do we do exactly?
+              <h2 className="text-4xl font-bold ">
+                Email marketing like never before
               </h2>
               <p className="leading-relaxed mb-4">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm. Our secret sauce? Its
-                our people. Were not your typical 9-to-5 crew; were a group of
-                enthusiastic individuals who eat, sleep, and breathe digital.
-                Our collective expertise is our superpower, and we channel it to
-                transform your online presence.
+                Email marketing isnt just about sending messages; its about
+                connecting with your audience, driving conversions, and
+                achieving your business goals.
               </p>
               <p className="leading-relaxed mb-4">
-                What sets us apart? Its our commitment to tailored strategies.
-                We understand that your business is as unique as a fingerprint,
-                and your digital journey should reflect that. Thats why we take
-                the time to get to know you, your industry, and your
-                aspirations. We craft personalized strategies that align
-                perfectly with your identity and goals. But were not just
-                strategists. Were your digital partners. Our services go beyond
-                the norm, covering everything from SEO and content marketing to
-                social media management. We provide a comprehensive, cohesive
-                approach to elevate your brand online.
+                Thats where our Email Marketing Service shines. Were not just
+                another agency; were your trusted partner in this digital
+                journey.
               </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
-
+              <p className="leading-relaxed mb-4">
+                With personalized, data-driven strategies, we craft compelling
+                campaigns that captivate your audience.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Our automation expertise saves your time and boosts results. We
+                understand that one size doesnt fit all, so we segment your
+                audience strategically.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Trust is paramount, and we ensure strict compliance with privacy
+                standards.
+              </p>
+              <Textlink
+                text={"Learn more"}
+                href={"/"}
+                className={"font-bold"}
+              />
             </div>
           </div>
         </div>
       </section>
 
+      {/* section */}
+      <section className="text-black w-[80%] mx-auto bg-white rounded-lg">
+        <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
+            <img
+              className="object-cover object-center rounded"
+              alt="hero"
+              src="/services/emailone.png"
+            />
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className=" text-3xl mb-4 font-bold ">
+              leading email marketing platform services
+            </h1>
+            <p class="mb-8">
+              When you choose Elevate Clicks as your email marketing partner,
+              youre not just hiring a service; youre gaining a dedicated team
+              invested in your success. Were with you every step of the way,
+              from strategy development to campaign execution and beyond.
+            </p>
+            <div class="flex justify-center">
+              <Textlink
+                text={"Learn more"}
+                href={"/"}
+                className={"font-bold"}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-black w-[80%] mx-auto bg-white rounded-lg mt-[2rem]">
+        <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class=" text-3xl mb-4 font-bold ">Email Campaign Creation</h1>
+            <p class="mb-8">- Designing and sending newsletters, product updates, or
+              promotions.
+            </p>
+            <p class="mb-8">- Segmenting email lists for personalized content.
+            </p>
 
-    {/* section */}
-    <section className="text-black w-[80%] mx-auto bg-white rounded-lg">
-    <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
-        <img className="object-cover object-center rounded" alt="hero" src="/services/emailone.png" />
+            <div class="flex justify-center">
+              <Textlink
+                text={"Learn more"}
+                href={"/"}
+                className={"font-bold"}
+              />
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
+            <img
+              class="object-cover object-center rounded"
+              alt="hero"
+              src="/services/emailtwo.png"
+            />
+          </div>
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-        <h1 className=" text-3xl mb-4 font-bold ">Before they sold out readymade gluten
-        </h1>
-        <p class="mb-8">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-        <div class="flex justify-center">
-                        <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+      </section>
 
-        </div>
-        </div>
-    </div>
-    </section>
-    <section class="text-black w-[80%] mx-auto bg-white rounded-lg mt-[2rem]">
-    <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center justify-between">
-        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-        <h1 class=" text-3xl mb-4 font-bold ">Before they sold out readymade gluten
-        </h1>
-        <p class="mb-8">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-        <div class="flex justify-center">
-                        <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
-
-        </div>
-        </div>        
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0">
-        <img class="object-cover object-center rounded" alt="hero" src="/services/emailtwo.png" />
-        </div>
-    </div>
-    </section>
-
-    {/* last section */}
-    <section className="text-white body-font my-[3rem]">
+      {/* last section */}
+      <section className="text-white body-font my-[3rem]">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col items-center text-center w-full mb-12">
-            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
-              We turn ideas into extraordinary digital products & experiences
+            <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%]  mb-6">
+            what makes us Expert ?
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
-              Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
-              were not just about boosting your online presence; were about
-              giving your brand a rocket-powered boost into the digital cosmos.
-              Lets embark on this cosmic journey together!
+            What sets us apart as email marketing experts? Its our commitment to excellence in every aspect. <br />
+            Our team combines a mastery of design, crafting visually stunning templates, with a dedication to personalized content that resonates with your audience. Were subject line connoisseurs, curating the perfect hook for each campaign. And we believe in the power of automation, streamlining processes to save your time while delivering outstanding results. 
+
             </p>
           </div>
         </div>
 
         <section>
-        <section className="text-gray-600 body-font">
-        <div className="container px-5 mx-auto">
-          <div className="flex flex-wrap -mb-10 text-center justify-center items-center md:w-[70%] mx-auto ">
-            <div className="sm:w-1/2 mb-10 px-4">
-                <div className="h-[200px] w-[300px] bg-white relative rounded-lg flex flex-col justify-center items-center">
-                      <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
-                      <h1 className="text-lg mx-auto">20%</h1>
-                      <h1 className="text-lg mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+          <section className="text-gray-600 body-font">
+            <div className="container px-5 mx-auto">
+              <div className="flex flex-wrap -mb-10 text-center justify-center items-center md:w-[70%] mx-auto ">
+                <div className="sm:w-1/2 mb-10 px-4">
+                  <div className="h-[200px] w-[300px] bg-white relative rounded-lg flex flex-col justify-center items-center">
+                    <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
+                    <h1 className="text-4xl font-bold mx-auto">67 %</h1>
+                    <h1 className="text-lg mx-auto">
+                    Average open rate
+                    </h1>
+                  </div>
                 </div>
-            </div>
-            <div className="sm:w-1/2 mb-10 px-4">
-            <div className="h-[200px] w-[300px] bg-white relative rounded-lg flex flex-col justify-center items-center">
-                      <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
-                      <h1 className="text-lg mx-auto">20%</h1>
-                      <h1 className="text-lg mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-
-
+                <div className="sm:w-1/2 mb-10 px-4">
+                  <div className="h-[200px] w-[300px] bg-white relative rounded-lg flex flex-col justify-center items-center">
+                    <div className=" absolute h-[75px] w-[100px] top-[-30px] bg-orange-500 left-[31%] rounded-lg"></div>
+                    <h1 className="text-4xl font-bold mx-auto">2.35 %</h1>
+                    <h1 className="text-lg mx-auto">
+                    Average meetings booked
+                    </h1>
+                  </div>
                 </div>
               </div>
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
         </section>
-
       </section>
-
-
     </div>
-  )
+  );
 }
 
-export default Emailservices
+export default Emailservices;

@@ -64,16 +64,10 @@ function webdevservices() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
               <p className="uppercase">Innovation idea</p>
               <h2 class="lg:text-4xl text-3xl font-bold  tracking-widest">
-                We Build Web Designs that skyrocket your business
+              We’re about so much more than websites
               </h2>
               <p class="leading-relaxed mb-4 text-sm">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm. Our secret sauce? Its
-                our people. Were not your typical 9-to-5 crew; were a group of
-                enthusiastic individuals who eat, sleep, and breathe digital.
-                Our collective expertise is our superpower, and we channel it to
-                transform your online presence.
+              Ready to conquer the online jungle? Lets do this! Our web development magic will give your business a turbo-charged boost, taking it from local gem to global phenomenon. Say hello to more customers, more sales, and more high-fives. Its time to rock the web and roll in the profits!
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
 
@@ -88,10 +82,10 @@ function webdevservices() {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              className="flex items-center"
+              className="flex items-center mx-auto"
             >
               <img
-                className="w-[12rem] lg:w-[25rem] lg:ml-[-2rem] hover:scale-105 transition-all duration-500"
+                className="w-[25rem] lg:ml-[-2rem] hover:scale-105 transition-all duration-500"
                 src="/services/webtwo.png"
                 alt="About Image"
               />
@@ -101,7 +95,7 @@ function webdevservices() {
       </section>
 
       {/* slider */}
-      <div className="px-[3rem]">
+      <div className="px-[1rem] lg:px-[3rem]">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -113,12 +107,12 @@ function webdevservices() {
           pagination={{
             dynamicBullets: true,
           }}
-          navigation={true}
+          navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="py-auto lg:my-12 w-[80%] mx-auto ">
+            <div className="py-auto lg:my-12 w-[95%] mx-auto ">
               <div className="grid grid-col-1 lg:grid-cols-2 gap-8 cursor-pointer">
                 <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-10 lg:gap-8 lg:p-4">
                   <div className="flex flex-row items-start justify-center ">
@@ -198,7 +192,7 @@ function webdevservices() {
       <Brands />
 
       {/* pricing */}
-      <section class=" body-font overflow-hidden">
+      {/* <section class=" body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
@@ -297,7 +291,7 @@ function webdevservices() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Testimonials />
 

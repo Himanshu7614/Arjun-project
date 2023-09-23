@@ -21,13 +21,13 @@ function homepage() {
               giving your brand a rocket-powered boost into the digital cosmos.
               Lets embark on this cosmic journey together!
             </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
+            <Textlink text={"Get in touch"} href={"/pages/contact"} className={"font-bold text-gray-500"} />
           </div>
         </div>
       </section>
       {/* //about */}
       <section className="text-white body-font overflow-hidden">
-        <div className="container px-5 py-24 mx-auto ">
+        <div className="container px-5  mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
@@ -68,10 +68,10 @@ function homepage() {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              className="flex items-center "
+              className="flex items-center justify-center mx-auto "
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
+                className="w-[30rem] lg:ml-[-2rem] mt-[2rem] lg:mt-0 hover:scale-105 transition-all duration-500 mx-auto"
                 src="/homepage/imgone.png"
                 alt="About Image"
               />
@@ -94,7 +94,7 @@ function homepage() {
               to take your digital commerce to the next level.
             </p>
           </div>
-          <div className="flex flex-wrap -m-2 text-center md:w-[80%] mx-auto ">
+          <div className="flex flex-wrap  text-center md:w-[90%] mx-auto ">
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[250px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
@@ -117,8 +117,7 @@ function homepage() {
                   We create website that clearly reflects your expertise, story,
                   and values
                 </p>
-                            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
-
+                  <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
               </div>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
@@ -178,7 +177,7 @@ function homepage() {
       </section>
       {/* we work with */}
       <section class="text-white body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto ">
+        <div class="container px-5 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <motion.div
               initial="hidden"
@@ -189,10 +188,10 @@ function homepage() {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              className="flex items-center "
+              className="flex items-center mx-auto "
             >
               <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
+                className="w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0 hover:scale-105 transition-all duration-500"
                 src="/homepage/imgtwo.png"
                 alt="About Image"
               />

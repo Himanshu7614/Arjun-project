@@ -8,17 +8,15 @@ function analiyst() {
   return (
     <div>
       <section className="text-white body-font my-[3rem]">
-        <div className="container px-5 pt-12 mx-auto">
-          <div className="flex flex-col items-center text-center w-full mb-12">
+        <div className="container px-5 pt-24 mx-auto">
+          <div className="flex flex-col items-center text-center w-full mb-12 gap-3">
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
-              We turn ideas into extraordinary digital products & experiences
+            Transforming Raw Data into Actionable Reports
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
-              Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
-              were not just about boosting your online presence; were about
-              giving your brand a rocket-powered boost into the digital cosmos.
-              Lets embark on this cosmic journey together!
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">Analytical reports are not just data summaries, theyre your compass in the data-driven world. They illuminate your path, helping you navigate the complexities of business with clarity and confidence.
             </p>
+            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+
           </div>
         </div>
         <motion.div
@@ -47,18 +45,13 @@ function analiyst() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              <h2 class="text-4xl font-bold  uppercase">
+              let’s understand your customer better with analytics
               </h2>
             </div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center ">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab
-                suscipit nobis, est ex dolorum eveniet impedit totam temporibus
-                assumenda quas optio hic commodi eaque. Optio quisquam
-                reiciendis dicta quod!
+              <p>Gain insights into user behavior and learn how to better the user experience and attract potential customers.
               </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
             </div>
           </div>
@@ -67,74 +60,19 @@ function analiyst() {
       <section class="text-white body-font overflow-hidden">
         <div class="container pb-12 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
-              <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
-                <p className="text-sm uppercase">WORK WITH US</p>
-                <h2 class="text-xl font-bold  tracking-widest">
-                  Achieve top search rankings with our seo services
-                </h2>
-                <p class="leading-relaxed mb-4">
-                  Whether you’re a startup looking for that extra kick or an
-                  established retailer in need of a fresh perspective, we are
-                  here to take your digital commerce to the next level.
+            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
+                <p class="leading-relaxed mb-4">Use analytics to group customers based on demographics, behaviors, and preferences.
                 </p>
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+                <p class="leading-relaxed mb-4">Analyze how customers interact with your website, products, or services to identify patterns and preferences. 
 
-              </div>
+                </p>
+                <p class="leading-relaxed mb-4">Conduct A/B tests on website elements, emails, or ads to understand what resonates best with your audience.
+                </p>
+                <p class="leading-relaxed mb-4">Monitor customer feedback and reviews to gain insights into their satisfaction, pain points, and expectations.
+                </p>
+                <p class="leading-relaxed mb-4">Calculate CLV to understand the long-term value of each customer and prioritize retention efforts.
+
+                </p>
             </div>
 
             <motion.div
@@ -161,17 +99,13 @@ function analiyst() {
         <div class="container pb-12 pt-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-start ">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab
-                suscipit nobis, est ex dolorum eveniet impedit totam temporibus
-                assumenda quas optio hic commodi eaque. Optio quisquam
-                reiciendis dicta quod!
+              <p> With us, theyre a thrilling journey through the world of data, where insights are brought to life, decisions are made with confidence, and the possibilities are endless.
               </p>
             </div>
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
-                Achieve top search rankings with our seo services
+              <h2 class="text-4xl font-bold  uppercase">
+              reports were boring until you meet us
               </h2>
             </div>
           </div>
@@ -197,75 +131,20 @@ function analiyst() {
                 alt="About Image"
               />
             </motion.div>
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
-              <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
-                <p className="text-sm uppercase">WORK WITH US</p>
-                <h2 class="text-xl font-bold  tracking-widest">
-                  Achieve top search rankings with our seo services
-                </h2>
-                <p class="leading-relaxed mb-4">
-                  Whether you’re a startup looking for that extra kick or an
-                  established retailer in need of a fresh perspective, we are
-                  here to take your digital commerce to the next level.
+            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
+                <p class="leading-relaxed mb-4">Our reports come with a narrative, a storyline that guides you through the data, making it relatable and meaningful.  
                 </p>
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-              <div className="mt-[2rem] flex flex-col gap-4">
-                <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition-all cursor-pointer duration-500">
-                  <p className="text-lg font-bold">On-Page Optimization</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="20"
-                    viewBox="0 0 41 24"
-                    fill="none"
-                  >
-                    <path
-                      d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <hr className="py-[2px] w-[90%]" />
-              </div>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+                <p class="leading-relaxed mb-4">
+Our reports are designed to provide actionable insights that drive decision-making. We dont just tell you whats happening; we tell you what you can do about it.
 
+                </p>
+                <p class="leading-relaxed mb-4">
+Numbers on a page used to be a blur, but our experts turn them into a roadmap for decision-making. We dont just deliver data; we deliver understanding.
+                </p>
+                <p class="leading-relaxed mb-4">Our experts infuse life into analytical reports through data visualization. We transform data into dynamic charts and graphs that tell a story, making insights leap off the page.
+                </p>
             </div>
+
           </div>
         </div>
       </section>

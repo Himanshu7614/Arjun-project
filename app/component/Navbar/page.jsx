@@ -9,8 +9,8 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="container-fluid drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
-      <div className="container ">
+    <div className="container drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
+      <div className="container mx-auto">
         <div className="flex flex-row mx-auto justify-between items-center bg-bgGrey relative text-textWhite">
           <motion.div
             initial={{
@@ -29,13 +29,13 @@ function Navbar() {
           >
             <Link href={"/"}>
               <img
-                className="w-[8rem] lg:w-[10rem] lg:h-[3.5rem] lg:ml-24"
+                className="w-[8rem] lg:w-[20rem] lg:pl-24 fles justify-start pl-3"
                 src="/logo.png"
-                alt="Expelee Logo"
+                alt="Eelvete Click"
               />
             </Link>
           </motion.div>
-          <div className="lg:flex flex-row justify-between items-center gap-10 hidden ">
+          <div className="lg:flex flex-row justify-center items-center gap-8 hidden  ">
             <Link
               href="/"
               className="font-semibold flex gap-1 items-center duration-300"
@@ -164,8 +164,8 @@ function Navbar() {
             </Link>
             
           </div>
-          <div className="hidden lg:block mr-24">
-            <Button text="Contact Us" className={"font-bold hover:bg-gradient-to-b from-purple-200 via-purple-300 to-slate-500"} />
+          <div className="hidden lg:flex mr-[5rem] justify-end w-[20%]">
+            <Button text="Contact Us" className={"font-bold hover:bg-gradient-to-b from-purple-300 via-purple-900 to-pink-900 w-[10rem]"} href={"/pages/contact"} />
           </div>
           <div
             className="block lg:hidden relative"

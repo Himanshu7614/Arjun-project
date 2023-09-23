@@ -13,31 +13,22 @@ function page() {
         <div className="container px-5 py-24 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
+              <p className="text-sm uppercase font-semibold">Who we work with ?</p>
 
               <h2 className="text-4xl font-bold  tracking-widest">
-                So what do we do exactly?
+              WHO ARE WE ?
               </h2>
-              <p className="leading-relaxed mb-4">
-                Were not just another digital marketing agency. Were a
-                passionate team of experts driven by a deep love for helping
-                businesses thrive in the online realm. Our secret sauce? Its
-                our people. Were not your typical 9-to-5 crew; were a group of
-                enthusiastic individuals who eat, sleep, and breathe digital.
-                Our collective expertise is our superpower, and we channel it to
-                transform your online presence.
+              <p className="leading-relaxed mb-4">At Elevate Clicks, our purpose is crystal clear : we exist to be your guiding light in the ever-shifting digital landscape.
               </p>
-              <p className="leading-relaxed mb-4">
-                What sets us apart? Its our commitment to tailored strategies.
-                We understand that your business is as unique as a fingerprint,
-                and your digital journey should reflect that. Thats why we take
-                the time to get to know you, your industry, and your
-                aspirations. We craft personalized strategies that align
-                perfectly with your identity and goals. But were not just
-                strategists. Were your digital partners. Our services go beyond
-                the norm, covering everything from SEO and content marketing to
-                social media management. We provide a comprehensive, cohesive
-                approach to elevate your brand online.
+              <p className="leading-relaxed mb-4">Our team comprises experienced professionals with a deep understanding of all facets of digital marketing, from SEO and SEM to social media, content marketing, and beyond. We stay ahead of industry trends to keep your business at the forefront.
+              </p>
+              <p className="leading-relaxed mb-4">We dont believe in one-size-fits-all strategies. Every business is unique, and so are its goals. We craft custom-tailored marketing solutions to address your specific needs and objectives.
+              </p>
+              <p className="leading-relaxed mb-4">Our decisions are fueled by data. We utilize advanced analytics and tracking tools to monitor performance, identify opportunities, and optimize campaigns for maximum ROI.
+              </p>
+              <p className="leading-relaxed mb-4">We believe in open and honest communication. Youll have full visibility into our processes and results, ensuring youre always informed about the progress of your digital marketing initiatives.
+              </p>
+              <p className="leading-relaxed mb-4">Your success is at the heart of everything we do. We are dedicated to building lasting relationships with our clients, ensuring your satisfaction is our ultimate priority.
               </p>
               <Textlink
                 text={"Learn more"}
@@ -59,7 +50,7 @@ function page() {
             >
               <img
                 className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                src="/homepage/imgtwo.png"
+                src="/services/about.png"
                 alt="About Image"
               />
             </motion.div>
