@@ -21,10 +21,10 @@ function webdevservices() {
         <div class="container px-5 py-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center sm:justify-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
-              <h2 class="lg:text-4xl text-3xl font-bold  tracking-widest">
+              <h2 class="lg:text-4xl text-3xl font-bold  ">
                 We Build Web Designs that skyrocket your business
               </h2>
-              <p class="leading-relaxed mb-4 text-sm">
+              <p class="leading-relaxed mb-4 text-lg">
                 Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm. Our secret sauce? Its
@@ -63,10 +63,10 @@ function webdevservices() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center  justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
               <p className="uppercase">Innovation idea</p>
-              <h2 class="lg:text-4xl text-3xl font-bold  tracking-widest">
+              <h2 class="lg:text-4xl text-3xl font-bold  ">
               We’re about so much more than websites
               </h2>
-              <p class="leading-relaxed mb-4 text-sm">
+              <p class="leading-relaxed mb-4 text-lg">
               Ready to conquer the online jungle? Lets do this! Our web development magic will give your business a turbo-charged boost, taking it from local gem to global phenomenon. Say hello to more customers, more sales, and more high-fives. Its time to rock the web and roll in the profits!
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
@@ -131,10 +131,10 @@ function webdevservices() {
                   </div>
                 </div>
                 <div class=" w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
-                  <h2 class="lg:text-4xl text-3xl font-bold  tracking-widest">
+                  <h2 class="lg:text-4xl text-3xl font-bold  ">
                     We Build Web Designs that skyrocket your business
                   </h2>
-                  <p class="leading-relaxed mb-4 text-sm">
+                  <p class="leading-relaxed mb-4 text-lg">
                     Were not just another digital marketing agency. Were a
                     passionate team of experts driven by a deep love for helping
                     businesses thrive in the online realm. Our secret sauce?
@@ -169,10 +169,10 @@ function webdevservices() {
                   </div>
                 </div>
                 <div class=" w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
-                  <h2 class="lg:text-4xl text-3xl font-bold  tracking-widest">
+                  <h2 class="lg:text-4xl text-3xl font-bold  ">
                     We Build Web Designs that skyrocket your business
                   </h2>
-                  <p class="leading-relaxed mb-4 text-sm">
+                  <p class="leading-relaxed mb-4 text-lg">
                     Were not just another digital marketing agency. Were a
                     passionate team of experts driven by a deep love for helping
                     businesses thrive in the online realm. Our secret sauce?
@@ -212,7 +212,7 @@ function webdevservices() {
             <div class="p-4 xl:w-[40%] md:w-[55%] w-full mx-auto">
               <div class="h-full p-6 rounded-lg border-2 flex flex-col relative overflow-hidden bg-white">
                 <div className="bg-gray-200 rounded-lg p-3 flex flex-col items-center justify-center gap-3 py-6">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                <h2 class="text-lg  title-font mb-1 font-medium">
                   START
                 </h2>
                 <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b leading-none">

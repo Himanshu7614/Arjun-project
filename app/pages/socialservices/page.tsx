@@ -15,7 +15,7 @@ function Socialmedia() {
               <h2 className="text-4xl font-bold  tracking-widest">
               Boost Your Brand with Our Social Media Mastery
               </h2>
-              <p className="leading-relaxed mb-4">Unlock the full potential of your brand with our Social Media Management Service, We craft engaging content, build meaningful connections, and drive results. Elevate your online presence today!
+              <p className="leading-relaxed mb-4 text-lg">Unlock the full potential of your brand with our Social Media Management Service, We craft engaging content, build meaningful connections, and drive results. Elevate your online presence today!
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -48,7 +48,7 @@ function Socialmedia() {
               <h2 className="text-4xl font-bold  tracking-widest">
               social media marketing at your service
               </h2>
-              <p className="leading-relaxed mb-4">Social media platforms are diverse, and each has its own unique audience and best practices. A professional service has the expertise to navigate these intricacies and optimize your presence on each platform.
+              <p className="leading-relaxed mb-4 text-lg">Social media platforms are diverse, and each has its own unique audience and best practices. A professional service has the expertise to navigate these intricacies and optimize your presence on each platform.
               </p>
             </div>
 
@@ -57,28 +57,28 @@ function Socialmedia() {
         <div className="border p-4 rounded-lg">
           <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
           <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-sm">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-2">
         <div className="border p-4 rounded-lg">
           <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
           <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-sm">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2  p-2">
         <div className="border p-4 rounded-lg">
           <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
           <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-sm">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2  p-2">
         <div className="border p-4 rounded-lg">
           <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
           <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-sm">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
     </div>
@@ -90,21 +90,21 @@ function Socialmedia() {
         <div className="container px-5 py-24 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
+              <p className="text-lg uppercase">WORK WITH US</p>
               <h2 className="text-4xl font-bold my-4">
               Why you need a social media manager
               </h2>
-              <p className="leading-relaxed mb-4">Social media isn’t your thing.
+              <p className="leading-relaxed mb-4 text-lg">Social media isn’t your thing.
 Hand it over to those who are trained in the industry so you can focus on other areas of your business !
               </p>
-              <p className="leading-relaxed mb-4">You don’t have the time on your hands.
+              <p className="leading-relaxed mb-4 text-lg">You don’t have the time on your hands.
 if you simply don’t have time for social media thing hand it over to experts who can help you out to be visible on social media platforms
               </p>
-              <p className="leading-relaxed mb-4">You need to improve social media engagement
+              <p className="leading-relaxed mb-4 text-lg">You need to improve social media engagement
 Social media manager are trained and make sure to increase the rate of engagement with your audience.
 
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4 text-lg">
 You need a clear strategy to be created
 Planning and organizing your content to ensure you get the highest engagement is one of our main rules.
               </p>

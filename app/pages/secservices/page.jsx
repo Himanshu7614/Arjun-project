@@ -14,10 +14,10 @@ function Seoservices() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 class="text-4xl font-bold ">
               Achieve top search rankings with our seo services
               </h2>
-              <p class="leading-relaxed mb-4">
+              <p class="leading-relaxed mb-4 text-lg">
               Boost your online visibility and drive organic traffic with our top-notch SEO service. Our experts will optimize your website for search engines, ensuring you reach your target audience and outshine the competition. Take your digital presence to new heights today!
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
@@ -49,10 +49,10 @@ function Seoservices() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase font-semibold">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 class="text-4xl font-bold ">
                 DRIVE TARGETED TRAFFIC AND BOOST CONVERSIONS
               </h2>
-              <p class="leading-relaxed mb-4">
+              <p class="leading-relaxed mb-4 text-lg">
               With Elevate Clicks cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
               </p>
               <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
@@ -79,7 +79,7 @@ function Seoservices() {
                       alt=""
                     />
                     <h2 className="font-bold">INCREASE TRAFFIC</h2>
-                    <p className="text-sm">
+                    <p className="text-lg">
                     CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
                     </p>
                   </div>
@@ -92,7 +92,7 @@ function Seoservices() {
                       alt=""
                     />
                     <h2 className="font-bold">IMPROVED RANKINGS</h2>
-                    <p className="text-sm">Our expertise will help you to improve visibility  in search engine results.
+                    <p className="text-lg">Our expertise will help you to improve visibility  in search engine results.
                     </p>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ function Seoservices() {
                       alt=""
                     />
                     <h2 className="font-bold">SUSTAINABLE GROWTH</h2>
-                    <p className="text-sm">Our SEO strategies focus on sustainable  with search engine guidelines.
+                    <p className="text-lg">Our SEO strategies focus on sustainable  with search engine guidelines.
                     </p>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ function Seoservices() {
                       alt=""
                     />
                     <h2 className="font-bold">TARGETED AUDIENCE</h2>
-                    <p className="text-sm">we focus on targeting specific keywords  to attract  your ideal audience.
+                    <p className="text-lg">we focus on targeting specific keywords  to attract  your ideal audience.
                     </p>
                   </div>
                 </div>
@@ -132,12 +132,12 @@ function Seoservices() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 class="text-4xl font-bold ">
               CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
               </h2>
             </div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center ">
-              <p>
+              <p className="text-lg">
               From keyword research and on-page optimization to link building and content creation, our comprehensive approach guarantees long-term success and lasting impact with proven SEO techniques
               </p>
             </div>
@@ -150,10 +150,10 @@ function Seoservices() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
               <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
                 <p className="text-sm uppercase">WORK WITH US</p>
-                <h2 class="text-xl font-bold  tracking-widest">
+                <h2 class="text-xl font-bold ">
                 Off-Page Optimization
                 </h2>
-                <p class="leading-relaxed mb-4">
+                <p class="leading-relaxed mb-4 text-lg">
                 Building high quality backlinks from reputable websites with influencer outreach to enhance your rankings.
                 </p>
               </div>

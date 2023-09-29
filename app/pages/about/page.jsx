@@ -10,7 +10,7 @@ function page() {
   return (
     <>
       <section className="text-white body-font overflow-hidden">
-        <div className="container px-5 py-24 mx-auto ">
+        <div className="container py-24 mx-auto ">
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase font-semibold">Who we work with ?</p>
@@ -59,7 +59,7 @@ function page() {
       </section>
 
       <section className="body-font">
-        <div className="container px-5 py-24 mx-auto bg-white bg-opacity-10">
+        <div className="container py-24 mx-auto bg-white bg-opacity-10">
           <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-5 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
             <h2 className="text-4xl font-bold  tracking-widest">
               OUR value/moral/mission

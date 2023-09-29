@@ -13,7 +13,7 @@ function Emailservices() {
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%]  mb-6">
               Boost your ROI with the industry-leading email marketing platform
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
               Are you ready to take your email marketing efforts to the next
               level? Look no further! Elevate Clicks is here to transform the
               way you engage with your audience, boost your brands visibility,
@@ -54,26 +54,26 @@ function Emailservices() {
               <h2 className="text-4xl font-bold ">
                 Email marketing like never before
               </h2>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-3 text-lg">
                 Email marketing isnt just about sending messages; its about
                 connecting with your audience, driving conversions, and
                 achieving your business goals.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-3 text-lg">
                 Thats where our Email Marketing Service shines. Were not just
                 another agency; were your trusted partner in this digital
                 journey.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-3 text-lg">
                 With personalized, data-driven strategies, we craft compelling
                 campaigns that captivate your audience.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-3 text-lg">
                 Our automation expertise saves your time and boosts results. We
                 understand that one size doesnt fit all, so we segment your
                 audience strategically.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-3 text-lg">
                 Trust is paramount, and we ensure strict compliance with privacy
                 standards.
               </p>
@@ -99,9 +99,9 @@ function Emailservices() {
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className=" text-3xl mb-4 font-bold ">
-              leading email marketing platform services
+              Leading email marketing platform services.
             </h1>
-            <p class="mb-8">
+            <p class="mb-8 text-lg">
               When you choose Elevate Clicks as your email marketing partner,
               youre not just hiring a service; youre gaining a dedicated team
               invested in your success. Were with you every step of the way,
@@ -152,7 +152,7 @@ function Emailservices() {
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%]  mb-6">
             what makes us Expert ?
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
             What sets us apart as email marketing experts? Its our commitment to excellence in every aspect. <br />
             Our team combines a mastery of design, crafting visually stunning templates, with a dedication to personalized content that resonates with your audience. Were subject line connoisseurs, curating the perfect hook for each campaign. And we believe in the power of automation, streamlining processes to save your time while delivering outstanding results. 
 

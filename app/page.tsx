@@ -4,7 +4,7 @@ import Homepage from "./pages/page"
 
 export default function Home() {
   return (
-   <div className='my-[5rem]'>
+   <div className='mt-[5rem]'>
       <Homepage />
    </div>
   )

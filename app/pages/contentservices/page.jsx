@@ -14,7 +14,7 @@ function Contentservices() {
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
               <h2 className="text-4xl font-bold ">Content is the heart of digital communication
               </h2>
-              <p className="leading-relaxed mb-4">Were not just creating content; were crafting conversations. Dive into our world of words, where stories resonate, and connections flourish. Unleash the power of meaningful content.
+              <p className="leading-relaxed mb-4 text-xl">Were not just creating content were crafting conversations. Dive into our world of words, where stories resonate, and connections flourish. Unleash the power of meaningful content.
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 
@@ -58,9 +58,9 @@ function Contentservices() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
                 <p className="text-sm uppercase">WORK WITH US</p>
-                <p class="leading-relaxed mb-4">We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives..
+                <p class="leading-relaxed mb-4 text-lg">We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives..
                 </p>
-                <p class="leading-relaxed mb-4">We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives..
+                <p class="leading-relaxed mb-4 text-lg">We create website that clearly reflects your expertise, story, and values — so you can spend less time having sales conversations and more time helping people live happier, healthier, and more fulfilling lives..
                 </p>
             </div>
 
@@ -94,7 +94,7 @@ function Contentservices() {
             <h2 className="text-4xl font-bold ">
             Types of content marketing we provide
             </h2>
-            <p className="leading-relaxed mb-4">
+            <p className="leading-relaxed mb-4 text-lg">
               Whether you’re a startup looking for that extra kick or an
               established retailer in need of a fresh perspective, we are here
               to take your digital commerce to the next level.
@@ -206,7 +206,7 @@ function Contentservices() {
               <h2 className="text-4xl font-bold ">
               Benefits to start you’re content journey now
               </h2>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4 text-lg">
                 Were not just another digital marketing agency. Were a
                 passionate team of experts driven by a deep love for helping
                 businesses thrive in the online realm. Our secret sauce? Its
@@ -215,7 +215,7 @@ function Contentservices() {
                 Our collective expertise is our superpower, and we channel it to
                 transform your online presence.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4 text-lg">
                 What sets us apart? Its our commitment to tailored strategies.
                 We understand that your business is as unique as a fingerprint,
                 and your digital journey should reflect that. Thats why we take

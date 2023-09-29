@@ -14,10 +14,10 @@ function paidads() {
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 className="text-4xl font-bold  tracking-widest">
+              <h2 className="text-4xl font-bold ">
                 Achieve top search rankings with our seo services
               </h2>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4 text-lg">
                 Whether you’re a startup looking for that extra kick or an
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
@@ -50,10 +50,10 @@ function paidads() {
       <section className="text-white body-font overflow-hidden">
         <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[70%] mx-auto">
           <p className="text-sm uppercase">WORK WITH US</p>
-          <h2 className="text-4xl font-bold  tracking-widest">
+          <h2 className="text-4xl font-bold ">
             Achieve top search rankings with our seo services
           </h2>
-          <p className="leading-relaxed mb-4">
+          <p className="leading-relaxed mb-4 text-lg">
             Whether you’re a startup looking for that extra kick or an
             established retailer in need of a fresh perspective, we are here to
             take your digital commerce to the next level.
@@ -64,10 +64,10 @@ function paidads() {
           <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 className="text-4xl font-bold  tracking-widest">
+              <h2 className="text-4xl font-bold ">
                 Achieve top search rankings with our seo services
               </h2>
-              <p className="leading-relaxed mb-4">
+              <p className="leading-relaxed mb-4 text-lg">
                 Whether you’re a startup looking for that extra kick or an
                 established retailer in need of a fresh perspective, we are here
                 to take your digital commerce to the next level.
@@ -102,10 +102,10 @@ function paidads() {
         <div className="container px-5 py-24 mx-auto bg-white bg-opacity-10">
           <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
             <p className="text-sm uppercase">WORK WITH US</p>
-            <h2 className="text-4xl font-bold  tracking-widest">
+            <h2 className="text-4xl font-bold ">
               Achieve top search rankings with our seo services
             </h2>
-            <p className="leading-relaxed mb-4">
+            <p className="leading-relaxed mb-4 text-lg">
               Whether you’re a startup looking for that extra kick or an
               established retailer in need of a fresh perspective, we are here
               to take your digital commerce to the next level.
@@ -184,12 +184,12 @@ function paidads() {
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 class="text-4xl font-bold ">
                 Achieve top search rankings with our seo services
               </h2>
             </div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center ">
-              <p>
+              <p className="text-lg">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab
                 suscipit nobis, est ex dolorum eveniet impedit totam temporibus
                 assumenda quas optio hic commodi eaque. Optio quisquam
@@ -206,10 +206,10 @@ function paidads() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
               <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
                 <p className="text-sm uppercase">WORK WITH US</p>
-                <h2 class="text-xl font-bold  tracking-widest">
+                <h2 class="text-xl font-bold ">
                   Achieve top search rankings with our seo services
                 </h2>
-                <p class="leading-relaxed mb-4">
+                <p class="leading-relaxed mb-4 text-lg">
                   Whether you’re a startup looking for that extra kick or an
                   established retailer in need of a fresh perspective, we are
                   here to take your digital commerce to the next level.
@@ -298,7 +298,7 @@ function paidads() {
         <div class="container pb-12 pt-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-start ">
-              <p>
+              <p className="text-lg">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ab
                 suscipit nobis, est ex dolorum eveniet impedit totam temporibus
                 assumenda quas optio hic commodi eaque. Optio quisquam
@@ -307,7 +307,7 @@ function paidads() {
             </div>
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               <p className="text-sm uppercase">WORK WITH US</p>
-              <h2 class="text-4xl font-bold  tracking-widest">
+              <h2 class="text-4xl font-bold ">
                 Achieve top search rankings with our seo services
               </h2>
             </div>
@@ -337,10 +337,10 @@ function paidads() {
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
               <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
                 <p className="text-sm uppercase">WORK WITH US</p>
-                <h2 class="text-xl font-bold  tracking-widest">
+                <h2 class="text-xl font-bold ">
                   Achieve top search rankings with our seo services
                 </h2>
-                <p class="leading-relaxed mb-4">
+                <p class="leading-relaxed mb-4 text-lg">
                   Whether you’re a startup looking for that extra kick or an
                   established retailer in need of a fresh perspective, we are
                   here to take your digital commerce to the next level.

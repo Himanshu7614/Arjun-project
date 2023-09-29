@@ -9,12 +9,12 @@ import Textlink from "../../common/Button/Textlink"
 function about() {
   return (
     <>
-      <section className="text-white font-bold body-font relative">
-        <div className="lg:pr-10 pt-36 mb-6 lg:mb-5 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
-          <h2 className="text-4xl font-extrabold  tracking-widest">
+      <section className="text-white body-font relative">
+        <div className="lg:pr-10 pt-36 mb-6 lg:mb-5 flex flex-col gap-3 text-center  mx-auto">
+          <h2 className="text-4xl font-bold  tracking-widest">
             CONTACT US
           </h2>
-          <p className="leading-relaxed mb-4">
+          <p className="leading-relaxed mb-4 text-lg md:w-[60%] mx-auto">
             Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
             magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor
             incididunt ut labore et.
@@ -41,8 +41,8 @@ function about() {
             </motion.div>
           </div>
           <div className="lg:w-1/3 md:w-1/2 flex flex-col w-full md:py-8 sm:mt-[2rem] mt-0  md:mt-0 rounded-lg ">
-            <p className="leading-relaxed mb-5 text-white font-bold">
-              Do you have any questions, suggestions or feedbacks? We’d love to
+            <p className="leading-relaxed mb-5 text-white font-lg">
+              Do you have any questions, suggestions or feedbacks? Wed love to
               hear from you
             </p>
             <div className="relative mb-4">
@@ -56,6 +56,7 @@ function about() {
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Name"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2
                  focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
@@ -70,6 +71,7 @@ function about() {
               <input
                 type="email"
                 id="email"
+                placeholder="Email"
                 name="email"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
@@ -84,6 +86,7 @@ function about() {
               <textarea
                 id="message"
                 name="message"
+                placeholder="Message"
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
@@ -148,20 +151,15 @@ function about() {
 
       {/* map */}
       <section class="text-white body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto ">
-          <div class="lg:w-[80%] mx-auto flex flex-wrap items-start sm:justify-center justify-between ">
+        <div class="container py-24 mx-auto ">
+          <div class="mx-auto flex flex-wrap items-start sm:justify-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-0 mb-2 lg:mb-0 flex flex-col gap-3">
               <h2 class="lg:text-4xl text-3xl font-bold  tracking-widest">
                 WANTS TO DISCUSS IN PERSON CHECK OUT OUR SPACE
               </h2>
-              <p class="leading-relaxed mb-4 text-sm">
-                We are an industry-leading Digital marketing agency that
-                provides 360 degree services and insights about SEO, search, and
-                how it impacts your business -and products.
+              <p class="leading-relaxed mb-4 text-lg">Looking to boost your online presence and drive targeted traffic to your business? We offer a comprehensive digital marketing solutions designed to elevate your brand.
               </p>
-              <p class="leading-relaxed mb-4 text-sm">
-                Have a question for us or feedback? Please click on the most
-                appropriate category and fill out the form to reach us.
+              <p class="leading-relaxed mb-4 text-lg">Have a question for us or a feedback? Please click on the most appropriate category and fill out the form and well get back to you as soon as possible.
               </p>
             <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
 

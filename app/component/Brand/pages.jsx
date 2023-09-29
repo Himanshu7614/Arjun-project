@@ -6,15 +6,15 @@ function Brands() {
   return (
     <div>
         {/* brand section */}
-      <section class=" body-font">
+      <section className=" body-font">
         <hr className="w-[90%] mx-auto" />
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-20">
             <p className="text-sm uppercase">WORK WITH US</p>
-            <h2 class="sm:text-3xl text-4xl  font-bold title-font mb-4 uppercase ">
+            <h2 className="sm:text-3xl text-4xl  font-bold title-font mb-4 uppercase ">
               Check our best clients & partners
             </h2>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
               Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
               magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor
               incididunt ut labore et.
