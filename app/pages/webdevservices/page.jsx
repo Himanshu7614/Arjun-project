@@ -1,13 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-// import LearnMore from "../TextLink";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import Link from "next/link";
 import Brands from "../../component/Brand/pages";
 import Testimonials from "@/app/component/Testimonials/page";
 import Textlink from "../../common/Button/Textlink"
@@ -93,102 +86,6 @@ function webdevservices() {
           </div>
         </div>
       </section>
-
-      {/* slider */}
-      <div className="px-[1rem] lg:px-[3rem]">
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
-          speed={3000}
-          pagination={{
-            dynamicBullets: true,
-          }}
-          navigation={false}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <div className="py-auto lg:my-12 w-[95%] mx-auto ">
-              <div className="grid grid-col-1 lg:grid-cols-2 gap-8 cursor-pointer">
-                <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-10 lg:gap-8 lg:p-4">
-                  <div className="flex flex-row items-start justify-center ">
-                    <img
-                      alt="gallary img"
-                      src="/services/sliderone.png"
-                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 "
-                    />
-                  </div>
-                  <div className="flex felx-row justify-center">
-                    <img
-                      alt="gallary img"
-                      src="/services/slidertwo.png"
-                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 "
-                    />
-                  </div>
-                </div>
-                <div class=" w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
-                  <h2 class="lg:text-4xl text-3xl font-bold  ">
-                    We Build Web Designs that skyrocket your business
-                  </h2>
-                  <p class="leading-relaxed mb-4 text-lg">
-                    Were not just another digital marketing agency. Were a
-                    passionate team of experts driven by a deep love for helping
-                    businesses thrive in the online realm. Our secret sauce?
-                    Its our people. Were not your typical 9-to-5 crew; were a
-                    group of enthusiastic individuals who eat, sleep, and
-                    breathe digital. Our collective expertise is our superpower,
-                    and we channel it to transform your online presence.
-                  </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
-
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="lg:my-12 w-[80%] mx-auto ">
-              <div className="grid grid-col-1 lg:grid-cols-2 gap-8 cursor-pointer">
-                <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-10 lg:gap-8 lg:p-4">
-                  <div className="flex flex-row items-start justify-center ">
-                    <img
-                      alt="gallary img"
-                      src="/services/slidertwo.png"
-                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 p-2"
-                    />
-                  </div>
-                  <div className="flex felx-row justify-center">
-                    <img
-                      alt="gallary img"
-                      src="/services/sliderone.png"
-                      className="rounded-md drop-shadow-xl hover:scale-105 transition-all duration-500 p-2"
-                    />
-                  </div>
-                </div>
-                <div class=" w-full lg:pr-10 lg:py-6 mb-2 lg:mb-0 flex flex-col gap-3">
-                  <h2 class="lg:text-4xl text-3xl font-bold  ">
-                    We Build Web Designs that skyrocket your business
-                  </h2>
-                  <p class="leading-relaxed mb-4 text-lg">
-                    Were not just another digital marketing agency. Were a
-                    passionate team of experts driven by a deep love for helping
-                    businesses thrive in the online realm. Our secret sauce?
-                    Its our people. Were not your typical 9-to-5 crew; were a
-                    group of enthusiastic individuals who eat, sleep, and
-                    breathe digital. Our collective expertise is our superpower,
-                    and we channel it to transform your online presence.
-                  </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold text-gray-500"} />
-
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
       <Brands />
 
       {/* pricing */}

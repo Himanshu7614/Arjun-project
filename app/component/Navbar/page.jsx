@@ -110,7 +110,7 @@ function Navbar() {
                           <div>
                             {/* <h1>SERVICES</h1> */}
                             <ul className="mt-[34px] space-y-4 text-sm">
-                              <li>
+                              {/* <li>
                                 <Link
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   href="/pages/paidads"
@@ -118,7 +118,7 @@ function Navbar() {
                                   {" "}
                                   Paid Ads
                                 </Link>
-                              </li>
+                              </li> */}
                               <li>
                                 <Link href="/pages/secservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"

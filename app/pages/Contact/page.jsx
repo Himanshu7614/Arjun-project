@@ -117,7 +117,7 @@ function about() {
                   src="/About/Instagram.svg"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">Instagram</h2>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ function about() {
                   src="/About/Linkedin.svg"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">Linkedin</h2>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ function about() {
                   src="/About/Twitter.svg"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Alper Kamu</h2>
+                  <h2 className="text-lg font-bold">Twitter</h2>
                 </div>
               </div>
             </div>

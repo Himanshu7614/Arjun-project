@@ -45,40 +45,29 @@ function Socialmedia() {
       <section className="md:w-[80%] mx-auto body-font">
   <div className="container px-5 py-24 mx-auto">
   <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
-              <h2 className="text-4xl font-bold  tracking-widest">
-              social media marketing at your service
+              <h2 className="text-4xl font-bold ">
+              Social media marketing at your service
               </h2>
               <p className="leading-relaxed mb-4 text-lg">Social media platforms are diverse, and each has its own unique audience and best practices. A professional service has the expertise to navigate these intricacies and optimize your presence on each platform.
               </p>
             </div>
 
     <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/4 md:w-1/2  p-2">
+      <div className="lg:w-2/4 md:w-1/2 p-2">
         <div className="border p-4 rounded-lg">
-          <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
-          <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="/services/social-three.png" alt="content" />
+          <h2 className="text-2xl  font-bold title-font mb-4">Profile Setup and Optimization:</h2>
+          <p className="text-lg">Creating and enhancing social media profiles. Consistent branding and messaging.
+</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-2">
+      <div className="lg:w-2/4 md:w-1/2  p-2">
         <div className="border p-4 rounded-lg">
-          <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
-          <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2  p-2">
-        <div className="border p-4 rounded-lg">
-          <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
-          <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        </div>
-      </div>
-      <div className="lg:w-1/4 md:w-1/2  p-2">
-        <div className="border p-4 rounded-lg">
-          <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
-          <h2 className="text-2xl  font-bold title-font mb-4">Chichen Itza</h2>
-          <p className="text-lg">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <img className="h-[100px] w-[100px] rounded object-cover object-center mb-6" src="/services/social-three.png" alt="content" />
+          <h2 className="text-2xl  font-bold title-font mb-4">Content Posting and Scheduling:
+</h2>
+          <p className="text-lg">Regular updates to maintain audience engagement. Strategic scheduling for maximum reach.
+</p>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ function Textlink({ text, className, href }) {
   return (
     <div>
       <div
-        className={`flex items-center gap-2 hover:gap-3 trasi duration-500 py-2 rounded-full my-4 bg-[#00000093] px-4 ${className}`}
+        className={`flex items-center gap-2 hover:gap-3 trasi duration-500  rounded-full my-4 text-lg ${className}`}
       >
         <Link href={`${href}`} className="  text-transparent  bg-clip-text bg-gradient-to-r from-[#5E58E7] to-pink-400">
           {text}

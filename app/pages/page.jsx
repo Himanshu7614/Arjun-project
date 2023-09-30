@@ -15,7 +15,7 @@ function homepage() {
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%] title-font mb-6">
               We turn ideas into extraordinary digital products & experiences
             </h1>
-            <p className=" text-lg lg:w-2/3 mx-auto leading-relaxed">
+            <p className=" text-xl lg:w-2/3 mx-auto leading-relaxed">
               Elevate Clicks is a Digital Marketing agency We at Elevate Clicks,
               were not just about boosting your online presence; were about
               giving your brand a rocket-powered boost into the digital cosmos.
@@ -23,6 +23,24 @@ function homepage() {
             </p>
             <Textlink text={"Get in touch"} href={"/pages/contact"} className={"font-bold text-gray-500"} />
           </div>
+          
+        <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition-all cursor-pointer={{ duration: 0.5 }}
+              variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0 },
+              }}
+              className="flex items-center"
+            >
+              <img
+                className="lg:w-[35rem] mx-auto hover:scale-105 transition-all cursor-pointer-all duration-500"
+                src="/services/analytics-one.png"
+                alt="About Image"
+              />
+            </motion.div>
         </div>
       </section>
       {/* //about */}
