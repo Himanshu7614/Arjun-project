@@ -189,7 +189,7 @@ function Footer() {
                   <img src="/social/x.svg" alt="" />
                 </a>
                 <a
-                  href=""
+                  href="https://www.linkedin.com/company/elevateclicks/"
                   className="w-8 h-8 border-gray-400 rounded-full text-center py-1 ml-2 flex-shrink-0"
                 >
                   <img src="/social/ig.svg" alt="" />

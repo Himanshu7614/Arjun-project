@@ -9,8 +9,8 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="container drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
-      <div className="container mx-auto">
+    <div className=" drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
+      <div className="">
         <div className="flex flex-row mx-auto justify-between items-center bg-bgGrey relative text-textWhite">
           <motion.div
             initial={{
@@ -110,15 +110,6 @@ function Navbar() {
                           <div>
                             {/* <h1>SERVICES</h1> */}
                             <ul className="mt-[34px] space-y-4 text-sm">
-                              {/* <li>
-                                <Link
-                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  href="/pages/paidads"
-                                >
-                                  {" "}
-                                  Paid Ads
-                                </Link>
-                              </li> */}
                               <li>
                                 <Link href="/pages/secservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
@@ -154,7 +145,7 @@ function Navbar() {
               href="/pages/about"
               className="font-semibold flex gap-1 items-center group/Home"
             >
-              About-us
+              About us
             </Link>
             <Link
               href="/pages/contact"
@@ -213,11 +204,63 @@ function Navbar() {
               </div>
             </div>
 
-            <div className="flex gap-4 items-center">
-              <p className="text-normal">Services</p>
-
+            <div className="flex gap-4 items-center ">
+              <p className="text-normal">Services 
+              </p>
+              <svg
+                className="group-hover/Home:ml-3 duration-300 mt-1 ml-1 rotate-90"
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="10"
+                viewBox="0 0 12 21"
+                fill="none"
+              >
+                <path
+                  d="M1.79967 0L0.102051 2L7.5 9.99993L0.102051 17.5L1.79967 20.1002L11.9001 9.99993L1.79967 0Z"
+                  fill="white"
+                />
+              </svg>
               {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
+             
             </div>
+            <ul className="text-sm flex flex-col gap-1 pl-3">
+                              <li>
+                                <Link href="/pages/webdevservices" 
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Webdevelopment</Link>
+                                
+                                  
+                              </li>
+                              <li>
+                                <Link href="/pages/contentservices
+                                "
+                                className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                >Content Management</Link>
+
+                              </li>
+                              <li>
+                              <Link href="/pages/emailservices"
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Email services</Link>
+                              
+                              </li>
+                              <li>
+                                <Link href="/pages/secservices"
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  > Seo services</Link>
+                              </li>
+                              <li>
+                                <Link href="/pages/socialservices"
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  > Social services</Link>
+                              </li>
+                              <li>
+                                <Link href={"/pages/analyst"}
+                                  className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
+                                  >Analyst</Link>
+                              </li>
+                            </ul>
+            
             <div className="flex gap-4 items-center">
               <p className="text-normal">
               <Link href="/pages/about">About us</Link>
